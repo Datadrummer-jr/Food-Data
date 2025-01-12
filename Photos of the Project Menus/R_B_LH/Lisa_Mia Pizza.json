@@ -1,0 +1,95 @@
+{
+ "nombre": "Mia Pizza",
+ "telefono": "51469744",
+ "correo_electronico": "lamiapizzacuba@gmail.com",
+ "pagina_web": "null",
+ "tipo_establecimiento": "restaurante",
+ "tipo_cocina": "italiana,pizza y comida",
+ "horario":{
+   "apertura": "11:00",
+   "cierre": "23:00",
+   "dias_operacion": {
+      "Lunes": "",
+      "Martes": "",
+      "Miercoles": "",
+      "Jueves": "",
+      "Viernes": "",
+      "Sabado":"",
+      "Domingo": ""
+   }
+ },
+ "opciones_reserva": null,
+ "opciones_entrega": null,
+ "metodos_pagos": null,
+"servicio_wifi": null,
+"opciones": null,
+"circulos infantiles": null,
+"opciones_amenidad": {
+      "aire libre": true
+},
+"accesibilidad": null,
+"promociones_descuento": "",
+ "facebook": "La Mia Pizza ",
+ "instagram": "@lamiapizza_",
+ "menu": {
+      "Entarntes":{
+          "Entremes de jamon y queso": { "Precio": 1400.00},
+          "Entremes de jamon":{ "Precio": 500.00},
+          "Entremes de ahumados" :{"Precio": 440.00},
+          "Entremes de aceitunas":{ "Precio": 300.00},
+          "Dados de queso" :{"Precio": 300.00},
+          "Croquetas de embutido":{"Precio":220.00}
+        },
+        "Cremas":{
+          "Crema de queso" :{"Precio" :250.00},
+          "Crema aurora":{" Precio": 300.00},
+          "Crema virginia":{" Precio" :430.00}
+        },
+        "Lasaña":{
+          "Lasaña de jamon": { "Precio" :500.00},
+          "Lasaña de jamon y chorizo" :{"Precio" :610.00}
+        },
+        "Espaguetis":{
+          "Espaguetis napolitano": {"Precio": 700.00},
+          "Espaguetis a la carbonara" :{"Precio": 860.00}
+        },
+        "Agregos":{
+          "Queso" :{"Precio" :320.00},
+          "Jamon" : {"Precio ":300.00},
+          "Chorizo":{" Precio": 220.00},
+          "Atun": {"Precio" :280.00},
+          "Aji pimiento": {"Precio" :120.00},
+          "Cebolla":{" Precio" :120.00},
+          "Piña":{" Precio": 100.00},
+          "Ahumado" :{"Precio" :300.00},
+          "Aceitunas" :{"Precio": 200.00},
+          "Queso azul" :{"Precio" :500.00}
+        },
+        "Menu peque":{
+          "Pizza junior napolitana" :{"Precio ": 350.00},
+          "Espaguetis junior napolitano":{" Precio": 300.00},
+          "Combinacion del menu": {"Precio" :650.00},
+          "Pizza junior La Mia": {" Precio": 1500.0}
+        },
+        "Pizza de 32cm":{
+          "Pizza napolitana": { "Precio" :700.00},
+          "Pizza La Mia" :{"Precio" :2500.00},
+          "Pizza La Mia de queso" :{"Precio":1900.00},
+          "Pizza Tres Queso": {"Precio" :1700.00}
+        },
+        "Pizzas Familiares":{
+          "Pizza La Mia Familiar": {"Precio" :4800.00},
+          "Pizza La Mia Familiar de Queso":{" Precio": 4000.00},
+          "Pizza familiar napolitana":{ "Precio" :2500.00}
+        }
+    },
+ "ubicacion": {
+      "calle": "Ave29 #21208 e/202 y 204,La Coronela",
+      "municipio": "La Lisa",
+      "provincia": "La Habana",
+      "pais": "Cuba",
+      "coordenadas": "23.07125,-82.46"
+} 
+}
+
+

@@ -1,0 +1,50 @@
+{
+ "nombre": "",
+ "telefono": "",
+ "correo_electronico": "",
+ "pagina_web": "",
+ "tipo_establecimiento": "",
+ "tipo_cocina": "",
+ "horario":{
+   "apertura": "",
+   "cierre": "",
+   "dias_operacion": {
+      
+   }
+},
+ "opciones_reserva": {
+      
+},
+ "opciones_entrega": {
+      
+},
+ "metodos_pagos": {
+      
+},
+"servicio_wifi": {
+      ""
+},
+"opciones": {
+      ""
+},
+"circulos infantiles": {
+      ""
+},
+"opciones_amenidad": {
+      ""
+},
+"accesibilidad": {
+      ""
+},
+"promociones_descuento": "",
+ "facebook": "",
+ "instagram": "",
+ "menu": {},
+ "ubicacion" {
+      "calle": "jj",
+      "municipio": "",
+      "provincia": "",
+      "pais": "",
+      "coordenadas": ""
+    }
+}
