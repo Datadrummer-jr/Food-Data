@@ -129,15 +129,15 @@
                 "messenger":false    
     },
     
-     "La Ronda" : {
-        "place":"La Ronda",
+     "La Ronda (Bar)" : {
+        "place":"La Ronda (Bar)",
         "municipality":"DO",
         "street":"calle Guasabacoa esquina calzada de Luyano",
         "kitchen":["bar"],
         "recomendation_in_social_red": 0,
-        "social_network": null,
+        "social_network": "www.facebook.com/restaurante.laronda",
         "coordinates": [23.1057291,-82.3581364],
-        "phone_number": null,
+        "phone_number":76990583,
         "horary":{
             "open":null,
             "close":null
@@ -16905,7 +16905,364 @@
     "there_is_an_additional_charge_for_service":true,
     "percent_collected":10,
     "messenger":false
+},
+"La Ronda (Restaurante)" : {
+        "place":"La Ronda (Bar)",
+        "municipality":"DO",
+        "street":"calle Guasabacoa esquina calzada de Luyano",
+        "kitchen":["comida criolla","comida internacional","comida italiana"],
+        "recomendation_in_social_red": 0,
+        "social_network": "www.facebook.com/restaurante.laronda",
+        "coordinates": [23.1057291,-82.3581364],
+        "phone_number":76990583,
+        "horary":{
+            "open":null,
+            "close":null
+        },
+        "menu":{
+            "main_dishes":{
+                "masa de cerdo frita":1890,
+                "lomo de cerdo":1180,
+                "bistec de cerdo":1100,
+                "fricase de cerdo":1950,
+                "cerdo":1300,
+                "cerdo con salsa agridulce":1140,
+                "bistec uruguayo de cerdo":1450,
+                "brochetas de cerdo":2350,
+                "lonjas de cerdo":1460,
+                "cerdo empanado":1250,
+                "cerdo encebollado":1160,
+                "lomo de cerdo con pina":1220,
+                "pescado empanado":1200,
+                "pollo asado":1030,
+                "pollo frito":1030,
+                "pollo a la barbacoa":1150,
+                "arroz con mariscos":690,
+                "arroz con camarones":1150,
+                "montemari ":3500,
+                "enchilado de camarones":1850,
+                "camarones empanados":1920,
+                "camarones al ajillo":1920,
+                "grillada mar":2800,
+                "paella marinera":2100,
+                "filete de pescado grille":1090,
+                "bistec de res encebollado":1060
+            },
+            "fittings":{
+                "arroz blanco":180,
+                "arroz moro":290,
+                "vegetales salteados":380,
+                "ensalada estacion":370
+            },
+            "desserts":{
+                "helado":170,
+                "jimagua":290,
+                "helado tres gracias":390,
+                "ensalada de helado":620,
+                "batido de helado":420,
+                "dulce de coco":240
+            },
+            "drinks":{
+                "aguas":{
+                    "pomo":140
+                },
+                "cerveza":{
+                    "importada":250
+                },
+                "malteada importada":240,
+                "refresco":{
+                    "pomo pequeño":290,
+                    "pomo grande":610,
+                    "lata":290
+                },
+                "energizante":230,
+                "jugos":200
+            },
+            "infusions":{
+                "cafe expreso":120
+            },
+            "to go":{
+                "pote de helado":1100,
+                "tina de helado":3900,
+                "yogurt":3900
+            },
+            "appetizers":{
+                "vianda frita":380,
+                "tostones":370,
+                "fajitas de cerdo":580,
+                "tostones rellenos":620,
+                "fajitas empanadas":1180,
+                "tabla mixta de la casa":1200,
+                "alitas":1100,
+                "croqueta":380,
+                "coctel de pescado":600,
+                "coctel de camarones":1500,
+                "tamal en cazuela":300,
+                "entremes de jamon y queso":1050,
+                "esperlan":960,
+                "ensalada fria":500
+        },
+        "pizzas":{
+            "napolitano":980,
+            "doble queso":1300,
+            "jamon":1220,
+            "chorizo":1280,
+            "cebolla":1080,
+            "hawaiana":1450,
+            "aceitunas":1380,
+            "de la casa":2100,
+            "camarones":1750
+        },
+        "pastes":{
+            "espaguetis":{
+                "napolitano":780,
+                "doble queso":950,
+                "jamon":840,
+                "chorizo":840,
+                "cebolla":780,
+                "camarones":1300,
+                "bolognesa":980
+            }
+        },
+        "breads":{
+            "pan con bistec":580,
+            "PAN con cerdo":840,
+            "pan cubano":980,
+            "hamburguesa de cerdo":640,
+            "hamburguesa de chorizo":640
+        },
+        "aggregations":{
+            "ketchup":160,
+            "mostaza":160,
+            "mayonesa":160,
+            "lechuga":160,
+            "tomate":160,
+            "TOMATE":160,
+            "pepinillo":170,
+            "cebolla":210,
+            "pina":240,
+            "aceitunas":230,
+            "chorizo":260,
+            "jamon":260,
+            "queso gouda":380,
+            "pimiento":210,
+            "camarones":640
+        }
+},
+"there_is_an_additional_charge_for_service":false,
+"messenger":false
+},
+"El Chanchullero": {
+    "place":"El Chanchullero",
+    "municipality":"HE",
+    "street":"Alamar zona 6 #16204 calle 5ta",
+    "kitchen":["comida criolla","comida italiana"],
+    "recomendation_in_social_red":0,
+    "social_network":null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary":null,
+    "menu":{
+        "main_dishes":{
+            "pollo al ajillo":1000,
+            "fricase de cerdo":1150,
+            "cerdo encebollado":1150,
+            "fricase de pollo":1000,
+            "ropa vieja":1250,
+            "lomo  ahumado":800,
+            "pescado":1600,
+            "mariscada":1600,
+            "enchilado de mariscos":1600,
+            "rafel":1600
+        },
+        "fittings":{
+            "arroz congrís":225
+        },
+        "pizzas":{
+            "napolitano":900,
+            "margarita":950,
+            "vegetales":950,
+            "de la casa":1050,
+            "jamon":1000
+        },
+        "aggregations":{
+            "cebolla":300,
+            "pimiento":300,
+            "queso gouda":350
+        },
+        "bar":{
+            "cocktails":{
+                "mojito de la casa":350,
+                "cuba libre":350,
+                "catarro":350,
+                "caipirissima":350,
+                "daiquiri":400,
+                "tinto de verano":550
+            }
+        },
+        "drinks":{
+            "agua natural":300,
+            "refresco":{
+                "importado":350
+            },
+            "jugos":400,
+            "limonada frappe":400,
+            "cerveza":350,
+            "chelada":475,
+            "michelada":525,
+            "copa de vino":400
+        },
+        "appetizers":{
+            "tapas": {
+                "tomate":300,
+                "carne":450,
+                "pescado":450
+            },
+            "tacos de carne ":500,
+            "tamal":650,
+            "nachos":600
+        }
+    },
+    "there_is_an_additional_charge_for_service":false,
+    "messenger":false
+},
+"Luly Hambrguesas": {
+    "place": "Luly Hambrguesas",
+    "municipality":"DO",
+    "street":"santa catalina entre czda de 10/10 y Parraga",
+    "kitchen":["comida rápida","hamburguesas"],
+    "recomendation_in_social_red":0,
+    "social_network":null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary":null,
+    "menu":{
+        "drinks":{
+            "refresco":{
+                "cola_pepsi":270,
+                " limon":270,
+                "naranja":270
+            },
+            "malta":300,
+            "cerveza":{
+                "king":220,
+                "cristal":260
+            },
+            "kermato":460,
+            "jugos":650,
+            "agua natural":190
+        },
+        "breads":{
+            "hamburguesa especial de la casa":1000,
+            "hamburguesa de jamon y queso":680,
+            "sandwich de jamon y queso":610,
+            "sandwich de Media Noche":470,
+            "bocadito de jamon":220,
+            "hamburguesa a la cubana":480
+        },
+        "aggregations":{
+            "jamon":60,
+            "queso":140,
+            "chorizo":80
+        },
+        "desserts":{
+            "helado":900
+        }
+    },
+    "there_is_an_additional_charge_for_service":false,
+    "messenger":false
+},
+"VOYA Boutique Hotel(Menu Infantil)":{
+    "place": "VOYA Boutique Hotel(Menu Infantil)",
+    "municipality":"DO",
+    "street": "Calle Juan Delgado #255 entre Santa Catalina y Milagros, Santos Suárez",
+    "kitchen":["comida internacional"],
+    "recomendation_in_social_red":0,
+    "social_network":"https://www.facebook.com/voyahavana/",
+    "coordinates":[23.096129582623064, -82.37460634951785],
+    "phone_number": 76395989,
+    "horary":{
+        "monday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "tuesday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "wednesday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "thuersday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "friday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "saturday":{
+            "open": 0.00,
+            "close":0.00
+        },
+        "sunday":{
+            "open":0.00,
+            "close":0.00
+        }
+    },
+    "menu":{
+        "main_dishes":{
+            "crujientes de pollo":900,
+            "espaguetis negro con salsa de queso":1000,
+            "espaguetis con salsa de tomate":1000,
+            "sadwich de jamon y queso":950,
+            "pechuga de pollo":1200
+        },
+        "desserts":{
+            "copa de helado":600,
+            "yogurt":450
+        }
+},
+"there_is_an_additional_charge_for_service":false,
+"messenger":false
+},
+"El Rapidito de 31":{
+    "place": "El Rapidito de 31",
+    "municipality":"MR",
+    "street":"calle 31 entre 310 y 312",
+    "kitchen":["comida rápida"],
+    "recomendation_in_social_red":0,
+    "social_network":null,
+    "coordinates":[],
+    "phone_number": 53306609,
+    "horary":null,
+    "menu":{
+        "breads":{
+            "con perro con papas":200,
+            "con perro":170
+        },
+        "drinks":{
+            "refresco":200,
+            "malta":{
+                "nacional":240,
+                "belgastar":230,
+                "perla":190
+            },
+            "cerveza":{
+                "cristal (botella)":240,
+                "bucanero":240,
+                "unlager":170,
+                "belgastar":210,
+                "belgastar con limon":150
+            },
+            "jugos":{
+                "caja":150
+            }
+        }
+    },
+    "there_is_an_additional_charge_for_service":false,
+    "messenger":true
 }
 }
-
 
