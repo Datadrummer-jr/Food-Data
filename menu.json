@@ -4775,6 +4775,7 @@
     "kitchen":["comida italiana", "comida criolla"],
     "recomendation_in_social_red": 0,
     "social_network": "www.faceboo.com/porfile.php?id=100095073350680",
+    "coordinates":[23.102634,-82.340251],
     "horary":null,
     "menu":{
         "appetizers":{
@@ -4908,6 +4909,7 @@
     "kitchen":["comida criolla", "comida italiana"],
     "recomendation_in_social_red": 0,
     "social_network": "www.facebook.com/laguitarreta22",
+    "coordinates":[23.124421,-82.327628],
     "horary": {
         "monday":{
             "open":12.00,
@@ -5064,6 +5066,7 @@
     "kitchen":["comida italiana"],
     "recomendation_in_social_red": 0,
     "social_network": "www.faceboo.com/porfile.php?id=4961555549449577",
+    "coordinates":[23.137051,-82.380221],
     "horary": {  
     "monday":{
         "open": null,
@@ -5150,6 +5153,7 @@
     "kitchen":["bar"],
     "recomendation_in_social_red": 0,
     "social_network": null,
+    "coordinates":[23.130903506084096, -82.4081059530225],
     "horary":null,
     "menu":{
         "breafasts":{
@@ -5246,6 +5250,7 @@
     "kitchen":["comida criolla"],
     "recomendation_in_social_red": 0,
     "social_network": null,
+    "coordinates":[23.14771304865418, -82.35243188259386],
     "horary": null,
     "menu":{
         "appetizers":{
@@ -5283,6 +5288,7 @@
     "kitchen":["comida criolla", "comida italiana"],
     "recomendation_in_social_red":100,
     "social_network": "www.facebook.com/jacaskafe",
+    "coordinates":[23.147705065930513, -82.35248081671426],
     "horary":{
         "monday":{
             "open":11.00,
@@ -5506,6 +5512,7 @@
     "kitchen":["comida criolla"],
     "recomendation_in_social_red": 0,
     "social_network":"www.faceboo.com/porfile.php?id=100087557551399",
+    "coordinates":[23.14083278528775, -82.35220805434892],
     "horary": {
         "monday":{
             "open":10.30,
@@ -5670,6 +5677,8 @@
     "kitchen":["comida criolla", "bar"],
     "recomendation_in_social_red": 0,
     "social_network": "www.leyendahabana.com",
+    "coordinates":[23.11921404835511, -82.37185817852176],
+    "phone_number": 78781332,
     "horary": {
         "monday":{
             "open":12.30,
@@ -5910,6 +5919,7 @@
     "kitchen":["helados"],
     "recomendation_in_social_red": 100,
     "social_network": "www.facebook.com/HeladosCid",
+    "coordinates":[23.13732566252428, -82.38678694541977],
     "horary":null,
     "menu":{
         "desserts":{
@@ -5988,6 +5998,7 @@
     "kitchen":["comida criolla", "comida italiana"],
     "recomendation_in_social_red": 88,
     "social_network": "www.facebook.com/villahernandezrestaurant",
+    "coordinates":[],
     "horary": {
         "monday":{
             "open":12.00,
@@ -6192,6 +6203,7 @@
     "kitchen":[],
     "recomendation_in_social_red": 0,
     "social_network":null,
+    "coordinates":[23.089181,-82.359999],
     "horary":null,
     "menu":{
         "main_dishes":{
@@ -6470,6 +6482,7 @@
     "kitchen": ["comida criolla"],
     "recomendation_in_social_red": 0,
     "social_network": null,
+    "coordinates":[23.065955188176503, -82.34028032527075],
     "horary":{
         "monday":{
             "open":10.00,
@@ -6579,7 +6592,7 @@
     "kitchen":["comida criolla"],
     "recomendation_in_social_red":0,
     "social_network":null,
-    "horary":null,
+    "coordinates":[23.07096900321145, -82.43554042343537],
     "menu":{
         "main_dishes":{
             "tamal de cerdo":1750,
@@ -6704,6 +6717,7 @@
     "kitchen":["comida italiana", "comida criolla", "comida internacional"],
     "recomendation_in_social_red":0,
     "social_network": "www.faceboo.com/porfile.php?id=100064683952235",
+    "coordinates":[],
     "horary":null,
     "menu":{
         "appetizers":{
@@ -17956,5 +17970,6 @@
     "messsenger":false
 }
 }
+
 
 
