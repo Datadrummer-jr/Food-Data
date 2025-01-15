@@ -17968,7 +17968,107 @@
     },
     "there_is_an_additional_charge_for_service":false,
     "messsenger":false
-}
+},
+"Abuelo De Oro": {
+    "place": "Abuelo De Oro",
+    "municipality":"BY",
+    "street":"Calzada de Aldabó entre 12 y 13, Aldabó",
+    "kitchen":["comida criolla","comida italiana","comida internacional"],
+    "recomendation_in_social_red":0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary":{
+        "monday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "tuesday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "wednesday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "thuersday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "friday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "saturday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "sunday":{
+            "open":9.30,
+            "close":23.0
+        }
+    },
+    "menu":{
+        "appetizers":{
+            "croqueta":500,
+            "empanadas":500,
+            "frituras":500,
+            "tostones rellenos":1000,
+            "papas bravas":500,
+            "papas doradas": 450,
+            "ceviche":2000,
+            "coctel de langosta":2000,
+            "Coctel Camaron":2000,
+            "tabla surtida":3000,
+            "tacos de ropa vieja":1500,
+            "tacos de vaca frita":1450,
+            "tacos de cerdo":1200
+        },
+        "breads":{
+            "sandwich de jamon y queso":1500,
+            "sandwich de pollo y queso":1800
+        },
+        "pizzas":{
+            "napolitano":1000,
+            "jamon":1300,
+            "hawaiana":1400,
+            "cebolla":1100,
+            "pimientos":1100,
+            "peperoni":1500
+        },
+        "pastes":{
+            "espaguetis":{
+                "napolitano":1200,
+                "jamon":1500
+            }
+        },
+        "main_dishes":{
+            "vaca frita":3000,
+            "ropa vieja":3000,
+            "bistec de res":3500,
+            "picadillo a la habanera":2900,
+            "bistec de cerdo encebollado":2500,
+            "cerdo salteado":2800,
+            "medallones de cerdo":3800,
+            "medallones de ropa vieja":3800,
+            "chuletilla de cerdo":3000,
+            "filete de pescado grille":3000,
+            "filete de pescado":4000,
+            "grillada de mar": 4000,
+            "langosta":4800,
+            "camarones":4800,
+            "pechuga de pollo grille":3000,
+            "pechuga de pollo salteada":3500,
+            "pollo frito":2500,
+            "cerdo asado":15000,
+            "chuleton de cerdo":6500,
+            "chuleta de cerdo":3000,
+            "grillada de mar y tierra":19000
+        }
+    },
+    "there_is_an_additional_charge_for_service":false,
+    "messsenger":false
+    }
 }
 
 
