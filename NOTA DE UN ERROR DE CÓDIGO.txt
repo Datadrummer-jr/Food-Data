@@ -1,7 +1,0 @@
-EN EL ANÁLISIS DE LOS PLATOS FUERTES ES HAY UN ERROR EN EL CÓDIGO : ES "main_dishes" en vez de "appetizers"
-
-Cambio:
-
-for pp in x:
-    md.append(media(pp,"main_dishes"))
-    
