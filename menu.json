@@ -17967,7 +17967,7 @@
         }
     },
     "there_is_an_additional_charge_for_service":false,
-    "messsenger":false
+    "messenger":false
 },
 "Abuelo De Oro": {
     "place": "Abuelo De Oro",
@@ -18067,8 +18067,195 @@
         }
     },
     "there_is_an_additional_charge_for_service":false,
-    "messsenger":false
+    "messenger":false
+    },
+    "Café Toscano": {
+    "place": "Café Toscano",
+    "municipality":"GB",
+    "street":"Calzada de Guines",
+    "kitchen": ["comida rápida","hamburguesas","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":8.00,
+            "close":22.00
+        },
+        "tuesday":{
+            "open":8.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":8.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":8.00,
+            "close":22.00
+        },
+        "friday":{
+            "open":8.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":8.00,
+            "close":22.00
+        },
+        "sunday":{
+            "open":8.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+"appetizers":{
+    "tostones rellenos":250,
+    "tostones":150,
+    "platanos": 100
+},
+"breads":{
+    "hamburguesa sencilla":300,
+    "hamburguesa de queso":380,
+    "hamburguesa doble queso":550
+},
+"main_dishes":{
+    "pollo chiflado":400,
+    "pollo especial":1000
+},
+"pastes":{
+    "espaguetis":330,
+    "espaghettis":{
+        "queso gouda":400
     }
+},
+"pizzas":{
+    "napolitano":170,
+    "doble queso":250,
+    "hawaiana":290,
+    "queso gouda":250,
+    "cubana":320,
+    "pizzas grandes":550,
+    "pizzas grandes napolitana":790,
+    "pizzas grandes de queso gouda":940
+}
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger":true
+},
+"Mc.Cesar": {
+    "place": "Mc.Cesar",
+    "municipality":"CT",
+    "street":"calle primer entre 220 y 221, Cotorro",
+    "kitchen": ["comida criolla","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number": 59770018,
+    "horary": {
+        "tuesday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "wednesday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "thuersday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "friday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "saturday":{
+            "open":9.30,
+            "close":23.00
+        },
+        "sunday":{
+            "open":9.30,
+            "close":23.0
+        }
+    },
+    "menu": {
+"appetizers":{
+    "dados de jamon y queso":1000,
+    "esperlan":1300,
+    "ensalada fria":300,
+    "tostones rellenos":600,
+    "croquetas de la casa":500,
+    "tostones":350,
+    "picadera de la casa":2500
+},
+"breads":{
+    "hamburguesa de cerdo":500,
+    "pan con bistec":500,
+    "pan con atun":600,
+    "pan con jamon y queso":500,
+    "pan con pechuga":500
+},
+"pizzas":{
+    "napolitano":500,
+    "atun" : 400,
+            "cebolla" : 250,
+            "pimiento" : 300,
+            "queso" : 300,
+            "jamon" : 200,
+            "piña" : 200,
+            "chorizo" : 200
+},
+"pastes":{
+    "spaghettis":{
+        "napolitano":400,
+        "atun" : 400,
+            "cebolla" : 250,
+            "pimiento" : 300,
+            "queso" : 300,
+            "jamon" : 200,
+            "piña" : 200,
+            "chorizo" : 200
+    }
+},
+"main_dishes":{
+    "garbanzos fritos":1000,
+    "higado de cerdo a la italiana":1000,
+    "bistec uruguayo":1500,
+    "brocheta de pollo":1700,
+    "brochetas de cerdo":1700,
+    "bistec grille":1300,
+    "fajita de cerdo":1400,
+       "Escalope": 1400.00,
+       "Solomillo" : 2000.00,
+       "Lomo ahumado deshuesado" : 1300.00,
+       "Pechuga Grille" : 1300.00,
+       "Salteado de Pollo" : 1400.00,
+       "Pollo deshuesado" : 900.00,
+       "Goldon Blue" : 1500.00,
+       "Suprema Princesa" : 1500.00,
+       "Ropa Vieja" : 1800.00,
+       "Vaca Frita" : 1800.00,
+       "Bistec de Res" : 2000.00,
+       "Pescado Grille" : 1500.00,
+       "Pescado Mc.Cesar" : 2500.00,
+       "Canciller": 1800.00,
+       "Pescado Empanado" : 1600.00,
+       "Pescado con salsa de limon" : 1700.00,
+     "Camaron Grille" : 1900.00,
+    "Camaron al ajillo": 1900.00,
+    "Camaron Enchilado": 2000.00
+},
+"fittings":{
+    "vegetales salteados":1500,
+       "Arroz a la campesina": 1500.00,
+       "Arroz Moro"  : 300.00,
+       "Arroz Blanco"  : 200.00,
+       "Arroz Frito"  : 500.00
+}
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+}
 }
 
 
