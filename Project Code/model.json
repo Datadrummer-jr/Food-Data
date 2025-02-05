@@ -1,0 +1,21 @@
+{
+"": {
+    "place": "",
+    "municipality":"",
+    "street":"",
+    "kitchen": [],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+
+    },
+    "menu": {
+
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+}
+}
+
