@@ -1,0 +1,166 @@
+{ 
+    "LH": {
+        "nombre": "La Habana",
+        "population":{
+            "total":1814207,
+            "hombres": 858961,
+            "mujeres":  955246
+        },
+        "superficie_en_km2": 728.26,
+        "densidad_de_turismo":"alta",
+        "salario_medio_en_2023": 5354
+    },
+    "AN":{
+        "nombre": "Arroyo Naranjo",
+        "population": {
+            "total": 180706,
+            "hombres":87637,
+            "mujeres":93069
+        },
+        "superficie_en_km2":83,
+        "densidad_de_turismo": "baja"
+    },
+    "BY":{
+        "nombre": "Boyeros",
+        "population": {
+            "total":176412,
+            "hombres": 89925,
+            "mujeres": 90487
+        },
+        "superficie_en_km2": 134,
+        "densidad_de_turismo": "baja"
+    },
+    "CH":{
+        "nombre": "Centro Habana",
+        "population":{
+            "total": 110335,
+            "hombres":51371,
+            "mujeres":58964
+        },
+        "superficie_en_km2": 4,
+        "densidad_de_turismo": "alta"
+    },
+    "CR":{
+        "nombre": "Cerro",
+        "population":{
+            "total": 105251,
+            "hombres": 48966,
+            "mujeres": 56285
+        },
+        "superficie_en_km2":13,
+        "densidad_de_turismo": "alta"
+    },
+    "CT": {
+        "nombre": "Cotorro",
+        "population":{
+            "total": 71425,
+            "hombres":  34296,
+            "mujeres": 37129
+        },
+        "superficie_en_km2": 65.9,
+        "densidad_de_turismo" : "baja"
+    },
+    "DO": {
+        "nombre": "Diez de Octubre",
+        "population":{
+            "total":  165622,
+            "hombres":  76139,
+            "mujeres": 89483
+        },
+        "superficie_en_km2": 12.27,
+        "densidad_de_turismo": "baja"
+    },
+    "GB": {
+        "nombre": "Guanabacoa",
+        "population":{
+            "total": 112521,
+            "hombres": 53944,
+            "mujeres":  58577
+        },
+        "superficie_en_km2": 188,
+        "densidad_de_turismo": "baja"
+    },
+    "HE": {
+        "nombre": "Habana del Este",
+        "population": {
+            "total": 146555,
+            "hombres": 69129,
+            "mujeres": 77426
+        },
+        "superficie_en_km2": 144.9,
+        "densidad_de_turismo": "alta"
+    },
+    "HV": {
+        "nombre": "Habana Vieja",
+        "population":{
+            "total": 67427,
+            "hombres": 32310,
+            "mujeres": 35117
+        },
+        "superficie_en_km2":4.32,
+        "densidad_de_turismo":"alta"
+    },
+    "LL": {
+        "nombre": "La Lisa",
+        "population":{
+            "total": 129998,
+            "hombres": 62068,
+            "mujeres": 67930
+        },
+        "superficie_en_km2": 37.5,
+        "densidad_de_turismo":"alta"
+
+    },
+    "MR": {
+        "nombre": "Marianao",
+        "population":{
+            "total": 115623,
+            "hombres": 55051,
+            "mujeres": 60572
+        },
+        "superficie_en_km2": 22,
+        "densidad_de_turismo": "alta"
+    },
+    "PY": {
+        "nombre": "Playa",
+        "population":{
+            "total": 146563,
+            "hombres": 67796,
+            "mujeres": 78767
+        },
+        "superficie_en_km2": 35,
+        "densidad_de_turismo": "alta"
+    },
+    "PR": {
+        "nombre" : "Plaza de la Revolución",
+        "population":{
+            "total":  108200,
+            "hombres": 49066,
+            "mujeres":59134
+        },
+        "superficie_en_km2": 12,
+        "densidad_de_turismo": "alta"
+    },
+    "RG": {
+        "nombre": "Regla",
+        "population":{
+            "total":  37373,
+            "hombres": 17856,
+            "mujeres": 19517
+        },
+        "superficie_en_km2": 9.2,
+        "densidad_de_turismo": "baja"
+    },
+    "SM": {
+        "nombre": "San Miguel del Padrón",
+        "population":{
+            "total": 140196,
+            "hombres": 67407,
+            "mujeres": 72789
+        },
+        "superficie_en_km2": 25.55,
+        "densidad_de_turismo": "baja"
+    }
+}
+
+       
