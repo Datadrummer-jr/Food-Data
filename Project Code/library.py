@@ -77,10 +77,10 @@ for i in place:
 def dict_num_values(l : dict):
    lista = []
    for i in l.values():
-      if isinstance(i,dict):
-         lista.extend(dict_num_values(i))
-      else:
+      if type(i) == int or type(i) == float:
          lista.append(i)
+      else:
+         lista.extend(dict_num_values(i))
    return(lista)
 
 def media(x: str,y: str):
