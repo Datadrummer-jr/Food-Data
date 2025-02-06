@@ -92,7 +92,7 @@ def media(x: str,y: str):
             if b == y:
                n = data[a]["menu"][y]
                lists = dict_num_values(n)
-   median = np.median(lists)
+   median = np.nanmedian(lists)
    return median
 
 x = ['AN', 'BY', 'CH', 'CR', 'CT', 'DO', 'GB', 'HE', 'HV','LL','MR','PY','PR','RG','SM']

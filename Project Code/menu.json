@@ -21387,5 +21387,492 @@
     },
     "there_is_an_additional_charge_for_service": false,
     "messenger": false
+},
+"700º": {
+    "place": "700º",
+    "municipality":"MR",
+    "street":"avenida 41 esquina 86",
+    "kitchen": ["comida italiana","comida criolla","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":54063906,
+    "horary": {
+        "monday":{
+            "open":11.00,
+            "close":3.00
+        },
+        "tuesday":{
+            "open":11.00,
+            "close":3.00
+        },
+        "wednesday":{
+            "open":11.00,
+            "close":3.00
+        },
+        "thuersday":{
+            "open":11.00,
+            "close":3.00
+        },
+        "friday":{
+            "open":11.00,
+            "close":3.00
+        },
+        "saturday":{
+            "open":11.00,
+            "close":3.00
+        },
+        "sunday":{
+            "open":11.00,
+            "close":3.00
+        }
+    },
+    "menu": {
+        "appetizers":{
+            "tostones rellenos jamon y queso": 890
+            ,
+            "croquetas de la casa": 890
+            ,
+            "finger de pollo empanizado": 890
+            ,
+            "tacos de pollo": 990
+            ,
+            "tacos de cerdo": 1100
+            ,
+            "frituras de malanga": 790
+            ,
+            "emtremes de aceituna": 1130
+            ,
+            "papas fritas": 890
+            ,
+            "eperlan de pescado": 1380
+            ,
+            "coctel de langosta ": 1600
+            ,
+            "coctel de camaron": 1600
+        },
+        "pastes":{
+            "espaguetis napolitano": 1100
+                ,
+                "espaguetis con camaron": 2500
+                ,
+                "espaguetis de langosta": 2500
+                ,
+                "espaguetis marineros": 1100
+        },
+        "pizzas":{
+            "napolitana": 1200
+                ,
+                "hawaiana": 1450
+        },
+        "main_dishes":{
+            "lonjas de cerdo al carbon": 1850
+                ,
+                "saltimboca de cerdo": 1750
+                ,
+                "bistec de cerdo": 1650
+                ,
+                "fajitas de cerdo salteadas": 1650
+                ,
+                "solomillo de cerdo":2900
+                ,
+                "masas de cerdo en salsa teriyaki":2200
+                ,
+                "fricase de cerdo":2200,
+                "pechuga de pollo": 1650,
+                "bistec uruguayo": 1850
+                ,
+                "ropa vieja de res":2200,
+                "filete de pescado": 1850
+                ,
+                "camaron al gusto": 2800
+                ,
+                "enchilado de langosta": 2800
+                ,
+                "paella de marisco":3550
+                ,
+                "cazuela de marisco":3600,
+                "Mar y tierra campesina":3550
+                ,
+                "filete john bill":3550
+        },
+        "fittings":{
+            "arroz moro": 100
+            ,
+            "vianda frita": 100
+            ,
+            "platano maduro frito": 100
+            ,
+            "ensalada estacion": 100
+            ,
+            "platano chatinos": 100
+            ,
+            "arroz blanco": 100
+        },
+        "drinks":{
+            "agua natural":290,
+            "refresco":{
+                "importado":380
+            },
+            "malta":440,
+            "energizante":550,
+            "red bull":830,
+            "cerveza":{
+                "importada":350,
+                "dispensada de cristal":350,
+                "bucanero":550,
+                "cristal":550,
+                "corona":750,
+                "sol":750,
+                "heineken":750
+            },
+            "vino tinto":  400
+            ,
+            "limonada frescura": 250
+            ,
+            "limonada natural": 250
+        },
+        "bar":{
+            "cocktails":{
+                "servicio michelada": 490
+            ,
+            "servicio de chelada": 300
+            ,
+            "caipiroska": 380
+            ,
+            "caipirisima": 380
+            ,
+            "mojito": 450
+            ,
+            "caipirina": 380
+            ,
+            "sangría": 400
+            ,
+            "vodca tonic": 480
+            ,
+            "gin tonic": 550
+            ,
+            "cuba libre": 480
+            ,
+            "cubata especial": 490
+            ,
+            "daiquirí": 380
+            ,
+            "piña colada": 450
+            }
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Tropikana": {
+    "place": "Tropikana",
+    "municipality":"MR",
+    "street":"Avenida 41, calle 72",
+    "kitchen": ["comida italiana","comida internacional","comida criolla"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":11.00,
+            "close": 22.00
+        },
+        "tuesday":{
+            "open":11.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":11.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":11.00,
+            "close":22.00
+        },
+        "friday":{
+            "open":11.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":11.00,
+            "close":22.00
+        },
+        "sunday":{
+            "open":11.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+        "breads":{
+            "Pan con jamon y queso":280
+        },
+        "appetizers":{
+            "Tostones": 350
+            ,
+            "Tostones rellenos": 450
+            ,
+            "Crema de queso": 450
+            ,
+            "Crema aurora": 450
+            ,
+            "Crema de jamon": 450
+            ,
+            "Consome": 450
+            ,
+            "Eperlan": 500
+            ,
+            "Croquetas": 500
+            ,
+            "Picadera de la casa": 100
+        },
+        "pastes":{
+            "Espaguettis a la carbonara":750
+                ,
+            "Espaguettis queso gouda":650
+        },
+        "pizzas":{
+            "Pizza de queso gouda":750
+                ,
+                "Pizza Hawaiana":800
+                ,
+                "Pizza tropicana":950
+        },
+        "main_dishes":{
+            "Bistec de cerdo":1300
+                ,
+                "Bistec de cerdo a la milanesa":1800,
+                "Bistec de pollo":1000
+                ,
+                "Pollo frito":1000
+                , 
+                "Pollo a la milanesa":1500,
+                "Ropa vieja":1550,
+                "Canciller":2500
+                ,
+                "Pescado entero":2000
+                ,
+                "Rueda de atun":1700
+                ,
+                "Camarones":1700
+                ,
+                "Filete de pescado":1500,
+                "Arroz frito":700
+        },
+        "desserts":{
+            "helado":1000
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Don Timbon": {
+    "place": "Don Timbon",
+    "municipality":"SM",
+    "street":"",
+    "kitchen": ["comida italiana","comida criolla","comida rápida","hamburguesas"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":9.00,
+            "close":22.00
+        },
+        "tuesday":{
+            "open":9.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":9.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":9.00,
+            "close":22.00
+        },
+        "friday":{
+            "open":9.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":9.00,
+            "close":22.00
+        },
+        "sunday":{
+            "open":9.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+        "breads":{
+            "hamburguesa sencilla":350,
+            "pan con bistec":550
+        },
+        "main_dishes":{
+            "arroz salteado":500
+        },
+        "pastes":{
+            "lasagna":550,
+            "espaguetis":300
+        },
+        "pizzas":{
+            "jamon":80,
+            "chorizo":100,
+            "atun":100
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Buena Vibra": {
+    "place": "Buena Vibra",
+    "municipality":"SM",
+    "street":"",
+    "kitchen": ["hamburguesas","comida criolla","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":12.00,
+            "close":22.00
+        },
+        "tuesday":{
+            "open":12.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":12.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":12.00,
+            "close":22.00
+        },
+        "friday":{
+            "open": 12.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":12.00,
+            "close": 22.00
+        },
+        "sunday":{
+            "open":12.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+        "appetizers":{
+            "croqueta":400,
+            "frituras de malanga":400,
+            "vianda frita":300,
+            "tostones":300,
+            "tostones rellenos": 500
+        },
+        "breads":{
+            "hamburguesa de pollo":300
+        },
+        "main_dishes":{
+            "bistec de cerdo":850,
+            "bistec de pollo": 900,
+            "higado de cerdo":800,
+            "lomo  ahumado":900,
+            "bistec  de cerdo":900,
+            "pechuga de pollo":900
+                },
+                "pastes":{
+                    "espaguetis":{
+                        "queso":400,
+                        "jamon":550
+                    }
+                },
+                "bar":{
+                    "cocktails":{
+                        "pina colada":300
+                    },
+                    "drinks":{
+                        "tequila":{
+                            "reposado":300
+                        },
+                        "spirits":{
+                            "licor de crema":200
+                        }
+                    }
+                }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Bar Colina": {
+    "place": "Bar Colina",
+    "municipality":"MR",
+    "street":"esquina b y calzada de guines reparto merceditas",
+    "kitchen": ["comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+                "open":11.00,
+                "close":23.00
+            },
+            "tuesday":{
+                "open":11.00,
+                "close":23.00
+            },
+            "wednesday":{
+                "open":11.00,
+                "close":23.00
+            },
+            "thuersday":{
+                "open":11.00,
+                "close":23.00
+            },
+            "friday":{
+                "open":11.00,
+                "close":23.00
+            },
+            "saturday":{
+                "open":11.00,
+                "close":23.00
+            },
+            "sunday":{
+                "open":11.00,
+                "close":23.00
+            }
+    },
+    "menu": {
+        "appetizers":{
+            "entremes de jamon y queso":600,
+            "croqueta":400,
+            "frituras de malanga":550,
+            "tostones":400,
+            "tostones rellenos":600,
+            "chicharritas":300
+        },
+        "pastes":{
+            "espaguetis":{
+                "napolitano":550
+            }
+        },
+        "pizzas":{
+            "napolitana grande":650,
+            "napolitana":220
+    },
+    "aggregations":{
+        "queso":200,
+        "chorizo":300,
+        "jamon":300,
+        "pina":150
+    }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
 }
 }
