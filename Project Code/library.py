@@ -15,7 +15,7 @@ place= []
 for pl in data:
     place.append(pl)
 
-def list_resturant():
+def list_restaurant():
    places = {
     "Restaurantes": place
    }
@@ -73,6 +73,25 @@ for i in place:
         sm += 1
     else:
         continue
+muny = [an,by,ch,ct,cr,do,gb,he,hv,ll,mr,py,pr,rg,sm]
+
+def count_muni():
+    print(f"Arroyo Naranjo : {an}")
+    print(f"Boyero : {by}")
+    print(f"Centro Habana : {ch}")
+    print(f"Cotorro : {ct}" )
+    print(f"Cerro : {cr}")
+    print(f"Diez de Octubre : {do}")
+    print(f"Guanabacoa : {gb}")
+    print(f"Habana del Este : {he}")
+    print(f"Habana Vieja : {hv}")
+    print(f"La Lisa : {ll}")
+    print(f"Marianao : {mr}")
+    print(f"Playa : {py}")
+    print(f"Plaza de la Revolución : {pr}")
+    print(f"Regla : {rg}")
+    print(f"San Miguel del Padrón : {sm}")
+    print(f"Total : {sum(muny)}")
 
 def dict_num_values(l : dict):
    lista = []
