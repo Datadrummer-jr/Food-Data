@@ -1,9 +1,18 @@
 
+# Biblioteca para el análisis de los restaurantes #
+
 import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import folium
+import warnings
+
+warnings.filterwarnings("ignore", category=RuntimeWarning, message="Mean of empty slice")
+warnings.filterwarnings("ignore", category=RuntimeWarning, message="invalid value encountered in scalar divide")
+warnings.filterwarnings("ignore", category=RuntimeWarning, message="All-NaN slice encountered")
+
+# Importación de los archivos .json #
 
 p = "menu.json"
 data = pd.read_json(p)
@@ -11,17 +20,20 @@ data = pd.read_json(p)
 with open("municipality.json") as m:
     muni = json.load(m)
 
-place= []
-for pl in data:
-    place.append(pl)
-
+names = []
+for n in data:
+    names.append(n)
+ 
+# Lista de los restaurantes # 
 def list_restaurant():
    places = {
-    "Restaurantes": place
+    "Restaurantes": names
    }
    df = pd.DataFrame(places)
    pd.set_option('display.max_rows', None)
    return df
+
+# Conteo de Restaurantes por municipio #
 
 an = 0
 by = 0
@@ -39,7 +51,7 @@ pr = 0
 rg = 0
 sm = 0
 
-for i in place:
+for i in names:
     count = data[i]["municipality"]
     if count == "AN":
         an += 1
@@ -73,6 +85,7 @@ for i in place:
         sm += 1
     else:
         continue
+
 muny = [an,by,ch,ct,cr,do,gb,he,hv,ll,mr,py,pr,rg,sm]
 
 def count_muni():
@@ -93,6 +106,8 @@ def count_muni():
     print(f"San Miguel del Padrón : {sm}")
     print(f"Total : {sum(muny)}")
 
+# Función para sacar los valores enteros y flotantes de un diccionario y añadirlos a una lista #
+
 def dict_num_values(l : dict):
    lista = []
    for i in l.values():
@@ -100,19 +115,23 @@ def dict_num_values(l : dict):
          lista.append(i)
       else:
          lista.extend(dict_num_values(i))
-   return(lista)
+   return lista
+
+# Función para Calular la media de los precios de un tipo plato en especifico en un municipio #
 
 def media(x: str,y: str):
-   for a in data:
+   for a in names:
       cart = data[a]["municipality"]
       if cart == x: 
          m = data[a]["menu"]
          for b in m:
             if b == y:
                n = data[a]["menu"][y]
-               lists = dict_num_values(n)
-   median = np.nanmedian(lists)
+               lista = dict_num_values(n)
+   median = np.nanmedian(lista)
    return median
+
+# Función para gráficar #
 
 x = ['AN', 'BY', 'CH', 'CR', 'CT', 'DO', 'GB', 'HE', 'HV','LL','MR','PY','PR','RG','SM']
 
@@ -125,9 +144,7 @@ def pyplot_bar(y: list, title: str):
     plt.title(title)
     plt.show()
 
-names = []
-for n in data:
-    names.append(n)
+# Funcón para contar los lugares con mensajería por municipio #
 
 deliver = []
 for mss in names:
@@ -153,7 +170,7 @@ for dvs in x:
 
 # Precios#
 
-def price_int(index: int):
+def dish_median(index: int):
     bkf = "breafasts"
     lbkf = []
     ent = "appetizers"
@@ -194,105 +211,105 @@ def price_int(index: int):
                         if type(bk) == int or type(bk) == float:
                             lbkf.append(bk)
                         else:
-                           lbkf.extend(price_int(bk))
+                           lbkf.extend(dish_median(bk))
                 if r == ent:
                     values =  menu[r].values()
                     for en in values:
                         if type(en) == int or type(en) == float:
                             lent.append(en)
                         else:
-                            lent.extend(price_int(en))
+                            lent.extend(dish_median(en))
                 if r == plp:
                     values =  menu[r].values()
                     for pl in values:
                         if type(pl) == int or type(pl) == float:
                             lplp.append(pl)
                         else:
-                            lplp.extend(price_int(pl))
+                            lplp.extend(dish_median(pl))
                 if r == ftt:
                     values =  menu[r].values()
                     for ft in values:
                         if type(ft) == int or type(ft) == float:
                             lftt.append(ft)
                         else:
-                            lftt.extend(price_int(ft))
+                            lftt.extend(dish_median(ft))
                 if r == pzz:
                     values =  menu[r].values()
                     for pz in values:
                         if type(pz) == int or type(pz) == float:
                             lpzz.append(pz)
                         else:
-                            lpzz.extend(price_int(pz))
+                            lpzz.extend(dish_median(pz))
                 if r == agg:
                     values =  menu[r].values()
                     for ag in values:
                         if type(ag) == int or type(ag) == float:
                             lagg.append(ag)
                         else:
-                            lagg.extend(price_int(ag))
+                            lagg.extend(dish_median(ag))
                 if r == crm:
                     values =  menu[r].values()
                     for cr in values:
                         if type(cr) == int or type(cr) == float:
                             lcrm.append(cr)
                         else:
-                            lcrm.extend(price_int(cr))
+                            lcrm.extend(dish_median(cr))
                 if r == pst:
                     values =  menu[r].values()
                     for pst in values:
                         if type(pst) == int or type(pst) == float:
                             lpst.append(pst)
                         else:
-                            lpst.extend(price_int(pst))
+                            lpst.extend(dish_median(pst))
                 if r == sps:
                     values =  menu[r].values()
                     for sp in values:
                         if type(sp) == int or type(sp) == float:
                             lsps.append(sp)
                         else:
-                            lsps.extend(price_int(sp))
+                            lsps.extend(dish_median(sp))
                 if r == brd:
                     values =  menu[r].values()
                     for br in values:
                         if type(br) == int or type(br) == float:
                             lbrd.append(br)
                         else:
-                            lbrd.extend(price_int(br))
+                            lbrd.extend(dish_median(br))
                 if r == dsr:
                     values =  menu[r].values()
                     for ds in values:
                         if type(ds) == int or type(ds) == float:
                             ldsr.append(ds)
                         else:
-                            ldsr.extend(price_int(ds))
+                            ldsr.extend(dish_median(ds))
                 if r == drk:
                     values =  menu[r].values()
                     for dk in values:
                         if type(dk) == int or type(dk) == float:
                             ldrk.append(dk)
                         else:
-                            ldrk.extend(price_int(dk))
+                            ldrk.extend(dish_median(dk))
                 if r == bar:
                     values =  menu[r].values()
                     for b in values:
                         if type(b) == int or type(b) == float:
                             lbar.append(b)
                         else:
-                            lbar.extend(price_int(b))
+                            lbar.extend(dish_median(b))
                 if r == ctn:
                     values =  menu[r].values()
                     for ct in values:
                         if type(ct) == int or type(ct) == float:
                             lctn.append(ct)
                         else:
-                            lctn.extend(price_int(ct))
+                            lctn.extend(dish_median(ct))
                 if r == inf:
                     values =  menu[r].values()
                     for nf in values:
                         if type(nf) == int or type(nf) == float:
                             linf.append(nf)
                         else:
-                            linf.extend(price_int(nf))
+                            linf.extend(dish_median(nf))
                 else:
                     continue
         else:
@@ -300,11 +317,11 @@ def price_int(index: int):
     dishes = [lbkf, lent, lplp, lftt, lpzz, lagg, lcrm, lpst, lsps, lbrd, ldsr, ldrk, lbar, lctn, linf]
     median = []
     for r in dishes:
-        median.append(np.nanmedian(r))
+        median.append(float(np.nanmedian(r)))
     return median
 
 def price(index: int):
-    budget = np.nansum(price_int(index))
+    budget = np.nansum(dish_median(index))
     return int(budget)
 
 # Salary

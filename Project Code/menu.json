@@ -18292,7 +18292,7 @@
         "papas" : 500.00
         },
         "desserts":{
-            "Bola de helado": 70.00,
+      "Bola de helado": 70.00,
       "Jimaguas": 195.00,
       "Ensalada de helado": 350.00,
       "Batido de helado": 395.00,
@@ -20030,7 +20030,7 @@
             },
             "Energizante Chacal": 280.00,
       "Energizante Tigon": 210.00,
-      "Refrescos": 220.00,
+      "refrescos": 220.00,
       "Malta Licre": 300.00,
       "Malta Hiper": 280.00,
       "Agua Chiquita": 280.00,
@@ -21872,6 +21872,428 @@
         "pina":150
     }
     },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Lacteos Ikoko": {
+    "place": "Lacteos Ikoko",
+    "municipality":"DO",
+    "street":"calle Ensenada #155 entre Concha y Via Blanca",
+    "kitchen": ["helados"],
+    "recomendation_in_social_red": 0,
+    "social_network":"https://m.facebook.com/@heladosikoko/" ,
+    "coordinates":[],
+    "phone_number":50982048,
+    "horary": {
+        "monday":{
+            "open":0.00,
+            "close":0.00
+             },
+            "tuesday":{
+            "open":0.00,
+            "close":0.00
+            },
+            "wednesday":{
+            "open":0.00,
+            "close":0.00
+            },
+            "thuersday":{
+            "open":0.00,
+            "close":0.00
+            },
+            "friday":{
+            "open":0.00,
+            "close":0.00
+            },
+            "saturday":{
+            "open":0.00,
+            "close":0.00
+            },
+            "sunday":{
+            "open":0.00,
+            "close":0.00
+            }
+    },
+    "menu": {
+        "desserts":{
+            "Helado de Chocolate 4 Litro":3300,
+            "Helado de Chocolate Biscuit 4 Litros":3300,
+            "Helado de Mantecado 4 Litros":3300,
+            "Helado Ikoko Chocomenta 500ml":500,
+            "Helado Ikoko de Chocolate 500ml":500,
+            "Helado Ikoko sabor Chocolate 1 Litro":950,
+            "Helado Ikoko sabor Chocolate Biscuit 1 Litro":950,
+            "Helado Ikoko sabor Chocomenta 1 Litro":950,
+            "Helado Ikoko sabor Chocomenta 4 Litros":3300,
+            "Helado Ikoko sabor Coco 1 Litro": 1050,
+            "Helado Ikoko sabor Guanábana 1 Litro":950,
+            "Helado Ikoko sabor Mantecado 1 Litro":950,
+            "Helado Ikoko sabor Mantecado 500 ml": 500
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": true
+},
+"DON CUENCA": {
+    "place": "DON CUENCA",
+    "municipality":"DO",
+    "street":"CALLE GENERAL LEE entre DESTRAMPES Y FIGUEROA. Santos Suárez",
+    "kitchen": [],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+
+    },
+    "menu": {
+        "appetizers":{
+            "Frituras de Malanga":500,
+            "tostones":550,
+            "garbanzos fritos":850,
+            "esperlan de pescado":1450,
+            "coctel de camarones":1600
+        },
+        "main_dishes":{
+            "caldereta de mariscos":3600,
+            "filete de pescado john bill":3000,
+            "enchilado de pulpo":2700,
+            "camarones salteados con aji y cebolla":2100,
+            "camarones enchilados":2200,
+            "Camarones temidor":2350,
+            "langosta grille":2200,
+            "Langosta Enchilada":2450,
+            "langosta temidor":2350,
+            "pescado grille":1700,
+            "pescado canciller":2600,
+            "masa de pescado salteados con aji y cebolla":1950,
+            "masa de pescado temidor":2000
+        },
+        "pastes":{
+            "espaguetis":{
+                "frutti mare":2900,
+                "mariscos":2450,
+                "de la casa":1650
+            },
+            "lasagna":{
+                "jamon":1350,
+                "chorizo":1550
+            },
+            "canelones":{
+                "jamon":1100,
+                "chorizo":1250
+            }
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"La Rosa Ortega": {
+    "place": "La Rosa Ortega",
+    "municipality":"DO",
+    "street":"Patrocinio #252 esquina Juan Bruno Zayas, Vibora",
+    "kitchen": ["criolla","comida internacional","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": "https://m.facebook.com/La.Rosa.de.Ortega/",
+    "coordinates":[23.090800,-82.371600],
+    "phone_number": 52464574,
+    "horary": {
+            "monday":{
+                "open":7.30,
+                "close":23.00
+            },
+            "tuesday":{
+                "open":7.30,
+                "close":23.00
+            },
+            "wednesday":{
+                "open":7.30,
+                "close":23.00
+            },
+            "thuersday":{
+                "open":7.30,
+                "close":23.00
+            },
+            "friday":{
+                "open":7.30,
+                "close":23.00
+            },
+            "saturday":{
+                "open":7.30,
+                "close":23.00
+            },
+            "sunday":{
+                "open":7.30,
+                "close":23.00
+            }
+    },
+    "menu": {
+        "bar":{
+            "cocktails":{
+                "mojito":675,
+                "cuba libre":675,
+                "cubata":750,
+                "daiquiri":675,
+                "daiquiri de frutas":750,
+                "Caipirinha":550,
+                "margarita":700,
+                "screwdriver":825,
+                "sangria":875,
+                "pina colada":875,
+                "gin tonic":750,
+                "gin tonic de coco":875,
+                "cuba flavor":875,
+                "servicio de michelada":225,
+                "servicio de chelada":150
+            },
+            "drinks":{
+                "whisky":{
+                    "clan campbell":700,
+                    "jameson":875,
+                    "buchanans 12 años": 3375,
+                    "buchanans 18 anos":4000
+                },
+                "ron havana club":{
+                    "7 anos":750
+                },
+                "smoky":1000,
+                "santiago":{
+                    "tradicional":750,
+                    "8 anos":950,
+                    "11 anos":1500,
+                    "12 anos":1875
+                },
+                "tequila":{
+                    "omelca blanco":1200,
+                    "omelca reposado":1300,
+                    "mexclal":1300
+                },
+                "spirits":{
+                    "amaretto":625,
+                    "sambuca":750,
+                    "grappa":1000
+                }
+            }
+        },
+        "drinks":{
+            "cerveza":{
+                "brok":425,
+                "lata":575,
+                "botella":625,
+                "Cristal (lata)":625,
+                "bucanero (lata)":625,
+                "corona (lata)":625,
+                "cristal (botella)":675,
+                "bucanero (botella)" :675,
+                "corona (botella)":675
+            },
+          "aguas":{
+            "1500 ml":625,
+            "500 ml":375,
+            "gaseosa":375,
+            "tonica nacional":500,
+            "tonica importada":875
+          }  ,
+          "refresco":{
+            "1500 ml":625,
+            "500 ml":375,
+            "importado":675,
+            "nacional":475,
+            "pinita":625
+          },
+          "malta":625,
+          "jugos":{
+            "naturales":250,
+            "lata":575,
+            "limonada":500,
+            "limonada hb":600
+          },
+          "energizante":500
+        },
+        "infusions":{
+            "cafe expreso":250,
+            "cortadito":300,
+            "cafe con leche":450
+        },
+        "pastes":{
+            "espaguetis":{
+                "carbonera":2050,
+                "tomete y albahaca":1200,
+                "frutti mare":3000,
+                "pesto":1500,
+                "amatriciana":1875
+            }
+        },
+        "fittings":{
+            "arroz blanco":250,
+            "arroz moro":375,
+            "vegetales salteados":575,
+            "ensalada de vegetales":625,
+            "ensalada catalana":1500,
+            "ensalada silvestre":1625
+        },
+        "breads":{
+            "sandwich de queso":1450,
+            "sandwich de jamon y queso":1750,
+            "sandwich Cubano":2075,
+            "sandwich de atun":1500,
+            "sandwich de pechuga":200,
+            "cesta de pan variado":875
+        },
+        "main_dishes":{
+            "paella de marisco":2500,
+            "paella de tierra":2150,
+            "paella de mar y tierra":2675,
+            "risotto al pesto":1625,
+            "risotto de mariscos":2750,
+            "pechuga de pollo a la parmesana":2750,
+            "pechuga de pollo ambardada":3000,
+            "vaca frita":2125,
+            "ropa vieja":2125,
+            "salomillo de res":3750,
+            "cerdo asado":2375,
+            "montadito de tamal":1125,
+            "camarones enchilados":2800,
+            "camarones al ajillo":2950,
+            "filete de pescado grille":2500,
+            "filete de pescado en salsa verde":2750,
+            "filete john bill":3125,
+            "grillada de mar":5250
+        },
+        "desserts":{
+            "copa de helado":925,
+            "tarta fria de chocolate":875
+        },
+        "appetizers":{
+            "coctel de camarones":1650,
+            "carpaccio":3000,
+            "tabla de jamon serrano":3125,
+            "croquetas de la casa":825,
+            "brusquetas":875,
+            "napoleon de berenjenas":750,
+            "ceviche pescado":2000,
+            "esperlan":1125,
+            "tamales":350,
+            "ensalada caprese":1125,
+            "tacos de pollo":1500
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Heladería Coppelia": {
+    "place": "Heladería Coppelia",
+    "municipality":"PR",
+    "street":"",
+    "kitchen": ["helados"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":10.00,
+            "close":21.15
+        },
+        "tuesday":{
+            "open":10.00,
+            "close":21.15
+        },
+        "wednesday":{
+            "open":10.00,
+            "close":21.15
+        },
+        "thuersday":{
+            "open":10.00,
+            "close":21.15
+        },
+        "friday":{
+            "open":10.00,
+            "close":21.15
+        },
+        "saturday":{
+            "open":10.00,
+            "close":21.00
+        },
+        "sunday":{
+            "open":10.00,
+            "close":21.15
+        }
+    },
+    "menu": {
+        "desserts":{
+            "ensalada de helado":155,
+            "ensalada tropical":150,
+            "ensalada fantasia": 140,
+            "arcoiris": 130,
+            "super twins":130,
+            "4 joyas":125,
+            "tres gracias":105,
+            "super sundae":80,
+            "Jimaguas":80,
+            "tortica helada":75,
+            "sundae":60,
+            "arlequin":55,
+            "sundae tropical":55,
+            "sundae africano":45,
+            "vaca malteada":250,
+            "pan de gloria":50,
+            "tortica":45,
+            "vaca negra":31,
+            "galletas escolares":70
+        },
+        "drinks":{
+            "refresco":{
+                "vaso":6,
+                "santa cola":200,
+                "santa naranja":200
+            },
+            "malta": 225
+        }        
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Dulcería Choco Alexo": {
+    "place": "Dulcería Choco Alexo",
+    "municipality":"CR",
+    "street":"Calle Ayestarán entre Dominguez y San Pablo",
+    "kitchen": ["dulceria"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+
+    },
+    "menu": {
+        "desserts":{
+            "cake de mousse":3000,
+            "cake de nata":3800,
+            "cake bombon":3500,
+            "minicake de bombon":1500,
+            "tartaletas ":140,
+            "rosca":80,
+            "lonjas":170,
+            "eclear":130,
+            "pie de chocolate":180,
+            "pie de limon":190,
+            "samaforo":300,
+            "confituras":320,
+            "chocolates varios":200        },
+            "drinks":{
+                "cerveza":250,
+                "refresco":{
+                    "limon":200,
+                    "cola":200
+                },
+                "malta":190,
+                "jugos":240
+            },
+            "infusions":{
+                "cafe expreso":1300
+            }
+        },
     "there_is_an_additional_charge_for_service": false,
     "messenger": false
 }
