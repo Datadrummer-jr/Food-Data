@@ -3561,7 +3561,7 @@
         },
         "tuesday":{
             "open":12.00,
-            "close":23.450
+            "close":23.45
         },
         "wednesday":{
             "open":12.00,
@@ -11114,11 +11114,13 @@
 },
 "The Place": {
         "place": "The Place",
-        "municipality":"GB",
+        "municipality":"BY",
         "street": "calle 100 pasando por Aldabo",
         "kitchen":["comida criolla"],
         "recomendation_in_social_red":0,
         "social_network":null,
+        "coordinates":[23.05191156648548, -82.3822933784273],
+        "phone_number": null,
         "horary":null,
         "menu":{
             "drinks":{
@@ -23559,5 +23561,1978 @@
             },
     "there_is_an_additional_charge_for_service": false, 
     "messenger": true
+},
+"Ruta 66": {
+    "place": "Ruta 66",
+    "municipality":"GB",
+    "street":"",
+    "kitchen": ["comida criolla","comida italiana","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[23.14008936976356,-82.3043403907062 ],
+    "phone_number":52833863,
+    "horary": {
+        "monday":{
+                "open":12.00,
+                "close":21.30
+            },
+            "tuesday":{
+                "open":12.00,
+                "close":21.30
+            },
+            "wednesday":{
+                "open":12.00,
+                "close":21.30
+            },
+            "thuersday":{
+                "open":12.00,
+                "close":21.30
+            },
+            "friday":{
+                "open": 12.00,
+                "close":21.30
+            },
+            "saturday":{
+                "open":12.00,
+                "close": 21.30
+            },
+            "sunday":{
+                "open":12.00,
+                "close":21.30
+            }  
+    },
+    "menu": {
+        "appetizers":{
+            "tostones rellenos de jamon y queso": 1090
+                ,
+                
+                    "tostones rellenos de bolognesa": 950
+                ,
+                
+                    "tostones rellenos de vegetales salteados y queso": 910
+                ,
+                
+                    "garbanzos fritos": 1900
+                ,
+                
+                    "ceviche de pescado": 1500
+                ,
+                
+                    "frituras de malanga": 595
+                ,
+                
+                    "croquetas": 490
+                ,
+                
+                    "brosquetas": 420
+                ,
+                
+                    "tamal": 400
+        },
+        "main_dishes":{
+            "lomo ahumado (con gratinado de queso)": 1850
+            ,
+            
+                "lomo ahumado (con salsa de piña)": 2000
+            ,
+            
+                "enchilado de camarones": 3300
+            ,
+            
+                "camarones al ajillo": 2950
+            ,
+            
+                "camarones en salsa de frutas": 2800
+            ,
+            
+                "enchilado de pulpo": 2690
+            ,
+            
+                "pulpo al ajillo": 2470
+            ,
+            
+                "filete de pescado route 66 (a la plancha gratinado con queso y camarón)": 3550
+            ,
+            
+                "monte toro a la francesa (a la plancha gratinado con queso)": 2400
+            ,
+            
+                "filete de pescado en salsa de frutas": 2250
+            ,
+            
+                "filete de pescado a la plancha": 1800
+            ,
+            
+                "arroz frito especial route 66": 2065
+            ,
+            
+                "arroz frito": 1280,
+                "super route 66 (cerdo)": 1965
+                ,
+                
+                    "castrol (cerdo)": 1255
+                ,
+                
+                    "texaco (cerdo)": 940
+        },
+        "fittings":{
+            "arroz blanco": 200
+                ,
+                
+                    "puré de malanga": 335
+                ,
+                
+                    "ensalada mixta de estacion": 425
+        },
+        "pizzas":{
+            "pizza de queso gouda": 850
+        },
+        "pastes":{
+            "lasaña queso gouda": 1420
+            ,
+            
+                "spaghetti de queso gouda": 1100
+        },
+        "drinks":{
+            "aguas":{
+                "mineral":190
+            },
+            "refresco":{
+               "importados": 240
+            },
+            "malta":{
+                "importada": 250
+            },
+        "jugos":{
+            "importado":210
+        },
+        "cerveza":{
+            "importada":210
+        },
+        "vino tinto":2200
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Restaurante Lan": {
+    "place": "Restaurante Lan",
+    "municipality":"RG",
+    "street":"",
+    "kitchen": ["comida criolla","comida internacional","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[23.12540621324244, -82.33255714289457],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+                "open":9.00,
+                "close":0.00
+            },
+            "tuesday":{
+                "open":9.00,
+                "close":0.00
+            },
+            "wednesday":{
+                "open":9.00,
+                "close":0.00
+            },
+            "thuersday":{
+                "open":9.00,
+                "close":0.00
+            },
+            "friday":{
+                "open":9.00,
+                "close":0.00
+            },
+            "saturday":{
+                "open":9.00,
+                "close":0.00
+            },
+            "sunday":{
+                "open":9.00,
+                "close":0.00
+            }
+    },
+    "menu": {
+        "appetizers":{
+            "mariquitas": 200
+                ,
+                
+                    "tostones rellenos": 300
+        },
+        "main_dishes":{
+            "bistec de higado": 500
+                ,
+                
+                    "fricase de pollo": 500
+                ,
+                
+                    "camarones al ajillo": 550
+                ,
+                
+                    "enchilada de camarones": 550
+                ,
+                
+                    "filete de malanga c/s. agridulce": 300
+                ,
+                
+                    "fajitas de pollo": 550
+                ,
+                
+                    "pollo frito": 500
+                ,
+                
+                    "bistec de palillo empanado": 550
+                ,
+                
+                    "camarones empanados": 550
+        },
+        "pizzas":{
+            "pizza mixta med/fam.": 400
+                ,
+                
+                    "pizza cebolla med/fam.": 300
+                ,
+                
+                    "pizza jamon med/fam.": 350
+                ,
+                
+                    "pizza napole med/fam.": 400
+                ,
+                
+                    "pizza doble queso med/fam.": 350
+        },
+        "pastes":{
+            "spaghetti napolitano": 250
+                ,
+                
+                    "spaghetti de jamon": 350
+        }
+        },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Rancho Blanco": {
+    "place": "Rancho Blanco",
+    "municipality":"BY",
+    "street":"",
+    "kitchen": ["comida criolla","comida internacional","comida rápida","hamburguesas","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": "Facebook -> Rancho Blanco Restaurant",
+    "coordinates":[22.967607839818697, -82.38841192208918],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":9.00,
+            "close":23.00
+        },
+        "tuesday":{
+            "open":9.00,
+            "close":23.00
+        },
+        "wednesday":{
+            "open":9.00,
+            "close":23.00
+        },
+        "thuersday":{
+            "open":9.00,
+            "close":23.00
+        },
+        "friday":{
+            "open":9.00,
+            "close":23.00
+        },
+        "saturday":{
+            "open":9.00,
+            "close":23.00
+        },
+        "sunday":{
+            "open":9.00,
+            "close":23.00
+        }
+    },
+    "menu": {
+        "breafasts":{
+            "huevo frito con bacon": 464
+                ,
+                
+                    "tortilla natural": 304
+                ,
+                
+                    "tostada de pan": 304
+        },
+        "appetizers":{
+            "eperlan de pescado en salsa rosa": 800
+                ,
+                
+                    "frituras de malanga": 640
+                ,
+                
+                    "croquetas de la casa": 640
+                ,
+                
+                    "tostones rellenos": 800
+                ,
+                
+                    "bolitas de queso": 800
+                ,
+                
+                    "entrante mixto": 2544
+                ,
+                
+                    "bruschetta": 480
+                ,
+                
+                    "coctel de camarones": 1136,
+                    "ceviche de pescado": 1584
+                ,
+                
+                    "entremes de jamon, queso, chorizo y aceitunas": 1600
+                ,
+                
+                    "coctel de frutas": 301
+                ,
+                
+                    "ensalada de frutas": 400
+                ,
+                
+                    "ensalada fria italiana": 576
+        },
+        "soups":{
+            "sopa de marisco": 1584
+        },
+        "creams":{
+            "crema de queso": 624
+                ,
+                
+                    "crema virginia": 624
+                ,
+                
+                    "crema aurora": 624
+        },
+        "main_dishes":{
+                
+                    "bistec de cerdo": 1040
+                ,
+                
+                    "bistec empanizado": 1216
+                ,
+                
+                    "fricase de cerdo": 1264
+                ,
+                
+                    "lonjas de cerdo": 1680
+                ,
+                
+                    "pincho san jacobo": 1920
+                ,
+                
+                    "masas de cerdo": 1824
+                ,
+                
+                    "lomo de cerdo ahumado": 1760
+                ,
+                
+                    "chuleta de cerdo": 2080
+                ,
+                
+                    "pollo frito a la criolla": 1232
+                ,
+                
+                    "pollo golden blue": 1872
+                ,
+                
+                    "pechuga de pollo grillada": 2096
+                ,
+                
+                    "suprema de pollo": 2224
+                ,
+                
+                    "arroz amarillo con pollo": 2224
+                ,
+                
+                    "filete de pescado grille": 1760
+                ,
+                
+                    "filete de pescado empanizado": 1840
+                ,
+                
+                    "filete de pescado canciller": 1904
+                ,
+                
+                    "filete de pescado rebosado": 2208
+                ,
+                
+                    "filete de pescado jombil": 2320
+                ,
+                
+                    "filete especial rancho blanco": 2416
+                ,
+                
+                    "camarón al ajillo": 1888
+                ,
+                
+                    "camarón rebosado": 1904
+                ,
+                
+                    "camarón enchilado": 2000
+                ,
+                
+                    "bistec de palomilla grillada": 1776
+                ,
+                
+                    "bistec de palomilla empanizado": 1904
+                ,
+                
+                    "uruguayo de res": 2032
+                ,
+                
+                    "uruguayo rancho blanco": 2416
+                ,
+                
+                    "corona de ropa vieja": 2224
+                ,
+                
+                    "chilindron de cordero": 2320
+                ,
+                
+                    "ropa vieja": 2224
+                ,
+                
+                    "picadillo de res": 1904
+                ,
+                
+                    "mar y tierra": 4784
+                
+        },
+        "breads":{
+            "sandwich de jamón y queso": 480
+                ,
+                
+                    "sandwich club": 720
+                ,
+                
+                    "sandwich rancho blanco": 800
+                ,
+                
+                    "bocadito de atún": 944
+                ,
+                
+                    "pan con tortilla": 240
+                ,
+                
+                    "pan con puerco": 304
+                ,
+                
+                    "bocadito de jamón y queso": 240
+                ,
+                
+                    "hamburguesa de res": 304
+                ,
+                
+                    "hamburguesa de cerdo": 208
+                ,
+                
+                    "hamburguesa king": 624
+        },
+        "pizzas":{
+            
+            "pizza pequena":{
+                "pizza small napolitana": 208
+            ,
+            
+                "pizza de jamón": 304
+            ,
+            
+                "pizza de chorizo": 304
+            ,
+            
+                "pizza hawaiana": 464
+            },
+            "pizzas grandes":{
+            
+                "pizza medium napolitana": 624
+            ,
+            
+                "pizza de jamón": 784
+            ,
+            
+                "pizza de chorizo": 784
+            ,
+            
+                "pizza hawaiana": 1136
+            ,
+            
+                "pizza mixta": 1600
+            }
+        },
+        "pastes":{
+            "spaghetti napolitano": 400
+                ,
+                
+                    "spaghetti de jamón": 496
+                ,
+                
+                    "spaghetti a la boloñesa": 816
+                ,
+                
+                    "lasagna del día": 944
+        },
+        "desserts":{
+            "helados montados": 480
+            ,
+            
+                "copa lolita": 800
+            ,
+            
+                "cake a la moda": 800
+            ,
+            
+                "dulces de la casa": 304
+        },
+        "drinks":{
+            "aguas" : {
+                
+            "agua natural": 320
+        ,
+        
+            "agua con gas": 352
+        
+            },
+            "refresco":{
+                
+                "refrescos nacionales": 320
+            ,
+            
+                "refrescos importados": 480
+            
+            },
+            
+            "malta": 480,
+            "juices" : {
+                
+                    "kermato": 480
+                ,
+                
+                    "piña colada": 640
+                ,
+                
+                    "jugos naturales": 160     
+            },
+            "batidos de frutas": 208,
+            "sorbete de helado": 400,
+            "cervezas":{
+                "cerveza cristal": 576
+                ,
+                
+                    "cerveza bucanero": 576
+                ,
+                
+                    "cerveza heineken": 576
+                ,
+                
+                    "cerveza sol": 576
+                ,
+                
+                    "cerveza presidente": 480
+                ,
+                
+                    "cerveza cacique": 400
+                ,
+                
+                    "cerveza holandesa": 640
+            }
+            },
+            "infusions":{
+                "leche con café": 304
+                ,
+                
+                    "leche con chocolate": 336
+                ,
+                
+                    "café expreso": 320
+                ,
+                
+                    "café cortado": 416
+            }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Mirador de Acosta": {
+    "place": "Mirador de Acosta",
+    "municipality":"DO",
+    "street":"",
+    "kitchen": ["comida criolla","comida italiana","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": "Facebook -> Mirador de Acosta",
+    "coordinates":[23.089222353439702, -82.36048697833665],
+    "phone_number": 76984009,
+    "horary": {
+        "monday":{
+            "open":10.00,
+            "close":23.45
+        },
+        "tuesday":{
+            "open":10.00,
+            "close":23.45
+        },
+        "wednesday":{
+            "open":10.00,
+            "close":23.45
+        },
+        "thuersday":{
+            "open":10.00,
+            "close":23.45
+        },
+        "friday":{
+            "open":10.00,
+            "close":23.45
+        },
+        "saturday":{
+            "open":10.00,
+            "close":23.45
+        },
+        "sunday":{
+            "open":10.00,
+            "close":23.45
+        }
+    },
+    "menu": {
+        "appetizers":{
+            
+                 "croquetas de la casa": 630
+            ,
+            
+                 "frituras de malanga": 690
+            ,
+            
+                 "picadera mirador": 1500
+            ,
+            
+                 "coctel de camarones": 1400
+            ,
+            
+                 "coctel de langosta": 1650
+            ,
+            
+                 "eperlán de pescado": 1100
+            ,
+            
+                 "garbanzo frito": 1320
+            ,
+            
+                 "tamal en cazuela": 1320
+        },
+        "creams":{
+            "crema de queso": 600
+        },
+        "main_dishes":{
+            
+            "pollo frito": 1200
+            ,
+            
+                 "bistec de pollo": 1350
+            ,
+            
+                 "pollo golden blue": 2500
+            ,
+            
+                 "bistec de cerdo grillé": 1400
+            ,
+            
+                 "lomo ahumado de cerdo": 1700
+            ,
+            
+                 "chuleta de cerdo": 1540
+            ,
+            
+                 "fricasé de cerdo": 1950
+            ,
+            
+                 "bistec uruguayo": 2800
+            ,
+            
+                 "vaca frita": 1900
+            ,
+            
+                 "ropa vieja de res": 2000
+            ,
+            
+                 "bistec de res": 2420
+            ,
+            
+                 "arroz frito": 1650
+            ,
+            
+                 "filete de pescado grillé": 1760
+            ,
+            
+                 "filete de pescado jonville": 2090
+            ,
+            
+                 "rueda de pescado": 2090
+            ,
+            
+                 "pescado canciller": 3000
+            ,
+            
+                 "camarón al gusto": 2200
+            ,
+            
+                 "langosta en sus variedades": 2600
+            ,
+            
+                 "langosta thermidor": 2750
+            ,
+            
+                 "grillada mirador": 3600
+        },
+        "pizzas":{
+            "pizza de queso": 1210
+                ,
+                
+                     "pizza de pimientos": 1210
+                ,
+                
+                     "pizza de cebolla": 1210
+                ,
+                
+                     "pizza de jamón": 1500
+                ,
+                
+                     "pizza de chorizo": 1500
+                ,
+                
+                     "pizza de hawaiana": 1500
+                ,
+                
+                     "pizza de atún": 1760
+                ,
+                
+                     "pizza de camarones": 1800
+                ,
+                
+                     "pizza mirador": 1950
+        },
+        "pastes":{
+            "lasaña": 1280
+            ,
+            
+                 "spaghetti napolitano": 1100
+            ,
+            
+                 "spaghetti de jamón": 1100
+            ,
+            
+                 "amatriciana": 1100
+            ,
+            
+                 "frutti di mare": 2400
+        },
+        "aggregations":{
+            
+            "piña": 150
+            ,
+            
+                 "cebolla / pimientos": 170
+            ,
+            
+                 "aceitunas / jamón / chorizo": 250
+            ,
+            
+                 "champiñón": 270
+            ,
+            
+                 "gouda / atún": 350
+            ,
+            
+                 "camarón": 450
+        },
+        "fittings":{
+            "arroz blanco": 250
+            ,
+            
+                 "arroz moro": 300
+            ,
+            
+                 "arroz pilaf": 400
+            ,
+            
+                 "vianda hervida": 300
+            ,
+            
+                 "ensalada mixta": 300
+            ,
+            
+                 "vianda frita": 320
+            ,
+            
+                 "tostones tradicionales": 400
+        },
+        "desserts":{
+            "postre del dia": 650
+        },
+        "drinks":{
+            "agua": 120,
+            "energizante": 200
+                ,
+                
+                     "refresco": 280
+                ,
+                "malta":{
+                    
+                     "nacional": 250
+                ,
+                
+                     "malta importada": 290
+                    },
+                    "kermato": 430
+                ,
+                "jugos":{
+
+                
+                     "jugo de lata": 300
+                ,
+                
+                     "jugo natural": 200
+                    },
+                    "batido de frutas": 250,
+       
+        "cervezas":{
+            "importada":300,
+                
+                     "cerveza corona y heineken": 450,
+                    
+                
+                     "cerveza nacional": 320
+        }
+    },
+        "bar":{
+            "ron h.c. 3 años": 360
+                
+                ,
+                
+                     "ron h.c. 7 años": 600
+                
+                ,
+                
+                     "ron h.c especial": 360
+                ,
+                
+                     "ron h.c. reserva": 530
+                ,
+                
+                     "selección de maestros": 1140
+                ,
+                
+                     "ron santiago 8 años": 550
+                ,
+                
+                     "tequila olmeca blanco": 660
+                ,
+                
+                     "tequila olmeca reposado": 720
+                ,
+                
+                     "vodka absolut": 470
+                ,
+                
+                     "vodka absolut mandarin": 470
+                ,
+                
+                     "ginebra bombay sapphire": 470
+                ,
+                
+                     "whisky jb": 690
+        },
+        "infusions":{
+            "café expresso": 250
+            ,
+            
+                 "café cortadito": 300
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": true
+},
+"La Patrona": {
+    "place": "La Patrona",
+    "municipality":"SM",
+    "street":"",
+    "kitchen": ["comida rápida","comida italiana","comida criolla","hamburguesas"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[ 23.0906213981348, -82.37667411357992],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open": 8.00,
+            "close": 0.00
+        },
+        "tuesday":{
+            "open":8.00,
+            "close":0.00
+        },
+        "wednesday":{
+            "open":8.00,
+            "close":0.00
+        },
+        "thuersday":{
+            "open":8.00,
+            "close":0.00
+        },
+        "friday":{
+            "open":8.00,
+            "close":0.00
+        },
+        "saturday":{
+            "open":8.00,
+            "close":0.00
+        },
+        "sunday":{
+            "open":8.00,
+            "close":0.00
+        }
+    },
+    "menu": {
+        "breads":{
+            "hamburguesa clasica": 500
+                ,
+                
+                     "hamburguesa sencilla": 700
+                ,
+                
+                     "hamburguesa grosera": 1200
+                ,
+                
+                     "hamburguesa patrona": 1000
+        },
+        "main_dishes":{
+            "bistec uruguayo": 2600
+                ,
+                
+                     "ropa vieja": 1400
+                ,
+                
+                     "escalope de cerdo": 1800
+                ,
+                
+                     "bistec de cerdo": 1600
+                ,
+                
+                     "arroz frito": 1000
+        },
+        "pizzas":{
+            "pizza La Patrona": 1800
+        },
+        "pastes":{
+            "lasaña": 1250
+                ,
+                
+                     "canelones": 1100
+                ,
+                
+                     "spaghetti carbonara": 1500
+        },
+        "desserts":{
+            "flan": 200
+                ,
+                
+                     "copa lolita": 400
+                ,
+                
+                     "cesta helado": 500
+                ,
+                
+                     "tres gracias": 300
+        },
+        "drinks":{
+            "jugos": 100,
+            "batidos": 300,
+            "suero helado": 350
+        },
+        "infusions":{
+            "café express": 150
+            ,
+            
+                 "cafe con crema": 180
+            ,
+            
+                 "cafe la patrona": 250
+            ,
+            
+                 "frapuchino": 250
+            
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Atraccion": {
+    "place": "Atraccion",
+    "municipality":"DO",
+    "street":"Calzada de Diez de Octubre % Acosta y O'Farril",
+    "kitchen": ["comida criolla","comida italiana","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": "instagram -> @atraccion_cr",
+    "coordinates":[23.088394253852766, -82.36600602395967],
+    "phone_number":50996766,
+    "horary": {
+        "monday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "tuesday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "wednesday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "thuersday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "friday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "saturday":{
+                "open":10.00,
+                "close":0.00
+            },
+            "sunday":{
+                "open":10.00,
+                "close":0.00
+            }
+    },
+    "menu": {
+        "appetizers":{
+            "Ensalada fria de jamón": 400,
+         "Ensalada fria de atún": 500,
+         "Aceitunas": 800,
+         "Entremes de jamón, chorizo y queso": 1200,
+         "Coctel de camarones": 1100,
+         "Fritura de malanga": 480,
+         "Croquetas de la casa": 550,
+         "Bolita de Queso": 680,
+         "Fajitas de Pollo": 900,
+         "Eperlan de pescado": 1350
+        },
+        "pizzas":{
+            "Pizza de queso napolitana": 1100
+        },
+        "pastes":{
+            "Espaguettis de queso napolitano": 1150
+        },
+        "main_dishes":{
+            "Bistec de pollo deshuesado": 1300,
+         "Bistec de pechuga grille": 1700,
+          "Suprema de pollo": 2100,
+         "Lomo ahumado": 1900,
+         "Bistec grille": 1950,
+         "Lomo grille a la mantequilla": 2100,
+         "Bistec especial": 2150,
+         "Masa frita bañada en mojo criollo": 2200,
+         "Solomillo Arracion en su salsa": 2400,
+         "Lomo con salsa de champiñon": 2500,
+         "Ropa vieja": 2200,
+         "Vaca frita": 2200,
+         "Bistec de res": 2300,
+         "Lomo de riñonada": 3100,
+         "Entrecott": 4200,
+         "Lomo de emperador": 2400,
+         "Camarón grille": 2400,
+         "Camarón al ajillo": 2500,
+         "Camarón enchilado": 2500,
+         "Camarón salvaje": 2850,
+         "Tormenta marina": 3600,
+         "Arroz frito": 1120,
+         "Arroz frito especial": 1900
+        },
+        "fittings":{
+         "Arroz blanco": 250,
+         "Arroz moro": 300,
+         "Fufú de malanga": 350,
+         "Chips de vianda": 390,
+         "Ensalada estación": 450,
+         "Tostones fritos": 500
+        },
+        "desserts":{
+            "Helado 3 gracias": 400
+        },
+        "drinks":{
+            "agua":280,
+            "refresco":300,
+            "jugos naturales":300,
+            "malta":350,
+            "Batido natural": 500,
+         "Batido de helado": 600,
+         "Energizante": 400,
+         "cerveza":{
+            "Cerveza nacional": 380,
+        "Cerveza importada": 500,
+         "Jarra de Cerveza": 1250
+         }
+        },
+        "bar":{
+            "cocktails":{
+        "Tinto Verano": 600,
+         "Cuba libre": 400,
+         "Chelada": 150,
+         "Michelada": 280,
+         "Caipiroska": 500,
+        "Caipiriña": 500,
+         "Caipirisima": 550,
+         "Gin Tonic": 700,
+         "Daiquiri frape": 450,
+         "Daiquiri Natural": 450,
+         "Cubata": 450
+            },
+            "drinks":{
+                "Línea whisky": 250,
+         "Línea vodka": 250,
+         "Línea de añejo 3 años": 300,
+         "Línea de añejo especial": 300,
+        "Línea de añejo reserva": 350,
+         "Línea ballentines": 650,
+         "Línea red label": 650,
+         "Línea ron blanco": 500,
+        "Chupito tequila": 300,
+        "Copa de vino": 500
+            }
+        },
+        "infusions":{
+            "Café expreso": 150
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": true
+},
+"Casa Godo": {
+    "place": "Casa Godo",
+    "municipality":"DO",
+    "street":"Ave. Mayía Rodríguez # 358 e/ San Mariano y Vista Alegre, El Mónaco",
+    "kitchen": ["comida criolla","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": "instagram -> @casa_godo._.oficial",
+    "coordinates":[23.094117895206946, -82.37776068041157],
+    "phone_number":53311292,
+    "horary": {
+        "monday":{
+            "open":12.00,
+            "close": 23.00
+        },
+        "tuesday":{
+            "open":12.00,
+            "close":23.00
+        },
+        "wednesday":{
+            "open":12.00,
+            "close":23.00
+        },
+        "thuersday":{
+            "open":12.00,
+            "close":23.00
+        },
+        "friday":{
+            "open":12.00,
+            "close":23.00
+        },
+        "saturday":{
+            "open":12.00,
+            "close":23.00
+        },
+        "sunday":{
+            "open":12.00,
+            "close":23.00
+        }     
+    },
+    "menu": {
+        "appetizers":{
+        "Croquetas de Pescado": 650,
+         "Coctel de Camarón": 1000,
+         "Entremes de Jamón, Queso y Aceitunas": 850,
+         "Tostones rellenos con Cerdo": 650,
+         "Garbanzo Frito": 700
+        },
+        "main_dishes":{
+        "Churrasco de Cerdo": 3200,
+         "Chilindrón de Cordero": 2000,
+         "Langosta grille o Enchilada": 3000,
+         "Masas de Cerdo": 2000,
+         "Bistec de Cerdo": 2000,
+         "Lonjas de Cerdo": 1800,
+         "Loma Ahumado": 1800,
+         "Filete de Pescado": 2200,
+         "Filete de Pescado con Vegetales Salteados": 2300,
+         "Filete de Pescado con Camarones": 2900,
+         "Camaron Salteado o Enchilado": 2600,
+         "Pechuga de Pollo": 1800,
+         "Arroz Frito sin camarón": 850,
+         "Arroz Frito con Camarón": 1200,
+         "Pollo Deshuesado": 950,
+         "Pulpo Salteado al ajo": 3100
+        },
+        "fittings":{
+         "Ensalada de Vegetales": 250,
+         "Ración de Moro": 200
+        },
+        "desserts":{
+            "Torta": 550
+        }
+    },
+    "there_is_an_additional_charge_for_service":true,
+    "percent_collected":10,
+    "messenger": false
+},
+"Diverxo": {
+    "place": "Diverxo",
+    "municipality":"DO",
+    "street":"Calzada de 10 de octubre #904 entre Luz Oeste y Lacret",
+    "kitchen": ["comida criolla","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": "https://www.facebook.com/p/Diverxo-Restaurant-Bar-100075778576229/",
+    "coordinates":[],
+    "phone_number": 5859457,
+    "horary": {
+        "monday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "tuesday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "wednesday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "thuersday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "friday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "saturday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "sunday":{
+                "open":12.00,
+                "close":0.00
+            }
+    },
+    "menu": {
+        "pastes":{
+            "Espaguetis napolitana": 850 ,
+            "Espaguetis jamon": 1100 ,
+            "Espaguetis chorizo": 1100 ,
+            "Espaguetis alfredo de jamon": 1150
+        },
+        "main_dishes":{
+            "Lechon asado": 1650,
+            "Diveryo": 1950
+        },
+        "pizzas":{
+            "Pizza napolitana": 850
+        },
+        "aggregations":{
+            "Jamon": 350 ,
+         "Atun": 500 ,
+         "Chorizo": 350 ,
+         "Aceituna": 500 ,
+         "Queso": 350
+        },
+        "drinks":{
+            "cerveza":{
+                "termo de cerveza": 2160 
+            }
+        }
+    },
+    "there_is_an_additional_charge_for_service": true,
+    "percent_collected":0,
+    "messenger": true
+},
+"El Monakeno": {
+    "place": "El Monakeno",
+    "municipality":"DO",
+    "street":"Avenida Mayia Rodriguez entre Acosta y O'Farril",
+    "kitchen": ["comida italiana","comida criolla","comida rápida","hamburguesas"],
+    "recomendation_in_social_red": 0,
+    "social_network":"https://www.facebook.com/monakeno.2024/",
+    "coordinates":[23.090027542072338, -82.3782775104008],
+    "phone_number":63444454,
+    "horary": {
+        "monday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "tuesday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "wednesday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "thuersday":{
+                "open":12.00,
+                "close":0.00
+            },
+            "friday":{
+                "open":12.00,
+                "close":2.00
+            },
+            "saturday":{
+                "open":12.00,
+                "close":2.00
+            },
+            "sunday":{
+                "open":12.00,
+                "close":2.00
+            }
+    },
+    "menu": {
+        "appetizers":{
+        "Croquetas": 900,
+         "Bolitas de queso": 1000,
+         "Queso frito": 950,
+         "Papas fritas": 400,
+         "Brusquetas": 700,
+         "Fajitas de pollo": 1300,
+         "Tapas Monakeno": 2000,
+         "Picadera Monakeno": 2500,
+         "Picadera Super Monakeno": 5000,
+         "Ensalada de atun y vegetales": 1500,
+         "Ensalada Italiana": 2300,
+         "Ensalada Monakeno": 1200
+        },
+        "breads":{
+        "Hot Dog": 1100,
+         "Sandwich Cubano": 2100,
+         "Hamburguesa de res": 1500,
+         "Sandwich de atun": 1500,
+         "Sandwich de jamon y queso": 1200,
+         "Hamburguesa Monakeno Azul": 2000
+        },
+        "main_dishes":{
+         "Solomillo de res": 5500,
+         "Carpaccio de res": 1900,
+         "Ropa Vieja de res o Vaca Frita": 2800,
+         "Picadillo de res a la Habanera": 2600,
+         "Pechuga de pollo grille": 2200,
+         "Chuleta de cerdo": 2400,
+         "Milanesa Monakeno": 2150,
+         "Camaron al gusto": 2500
+        },
+        "pastes":{
+         "Pasta Napolitana": 1450,
+         "Pasta Carbonara": 2500,
+         "Pasta Alfredo": 1500,
+         "Pasta Amatriciana": 2400,
+         "Pasta de 4 Quesos": 2200,
+         "Pasta de vegetales": 1150,
+         "Pasta al Pesto": 1500,
+         "Pasta Bolognesa": 2200
+        },
+        "pizzas":{
+            "Pizza de nutella": 1050,
+            "Pizza Margarita": 1650,
+            "Pizza Monakeno": 2600,
+            "Pizza Napolitana": 1150,
+            "Pizza de atun": 1850,
+            "Pizza de jamon": 1750,
+            "Pizza hawaiana": 1800,
+            "Pizza Panna": 1950,
+            "Pizza Prosciutto": 2150
+        },
+        "aggregations":{
+            "Champignones": 250,
+         "Queso azul": 550,
+         "Queso Parmesano": 800,
+         "Camarón": 1100,
+         "Bacon": 500,
+         "Chorizo extra vela": 700,
+         "Queso Gouda": 500,
+         "Aceitunas": 400,
+         "Piña glaseada": 150,
+         "Cebolla": 250,
+         "Pimiento": 250,
+         "Jamón Euro": 400,
+         "Huevo": 200,
+         "Jamón Serrano": 800,
+         "Atún": 550
+        },
+        "fittings":{
+         "Guarnición de arroz blanco": 250,
+         "Vegetales salteados": 250,
+         "Puré de boniato": 200
+        },
+        "desserts":{
+         "Tarta Flan": 1000,
+         "Cheesecake": 1125,
+         "Helados": 550,
+         "Flan casero": 650
+        },
+        "infusions":{
+            "Café Expresso": 200,
+         "Café Cortado": 250,
+         "Frappuccino": 400
+        },
+        "bar":{
+            "cocktails":{
+                "Screw Driver": 600,
+         "Screw Driver Absolute": 900,
+         "Ron Collins": 650,
+         "Margarita": 800,
+         "Sangría": 700,
+         "Daiquiri": 700,
+         "Mojito": 700,
+         "Cuba Libre": 600,
+         "Piña Colada": 800,
+         "Caipirinha": 650,
+         "Caipiroska": 650,
+         "Caipirissima": 650,
+         "Happy Monakeno": 1250,
+         "Michelada": 200,
+         "Chelada": 150
+            }
+        },
+        "drinks":{
+         "Limonada": 450,
+         "Red Bull": 500,
+         "cerveza":{
+        "Cerveza Embrau": 280,
+         "Cubetazo de cerveza Embrau": 1400,
+         "Cubetazo de cerveza Cristal": 1800
+         }
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": true
+},
+"Heredia": {
+    "place": "Heredia",
+    "municipality":"DO",
+    "street":"Calle Heredia % Avenida Acosta y O'Farril",
+    "kitchen": ["comida italiana", "comida rápida"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[23.088134393945083, -82.36838794542082],
+    "phone_number":76400222,
+    "horary": {
+        "monday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "tuesday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "friday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "sunday":{
+            "open":10.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+        "pizzas":{
+         "Pizza Napolitana": 950 ,
+         "Pizza de Jamon": 980 ,
+         "Pizza de Chorizo": 980 ,
+         "Pizza Boloñesa": 980 ,
+         "Pizza de Cebolla": 980 ,
+         "Pizza de Pimiento": 980 ,
+         "Pizza Hawaiana": 1000 ,
+         "Pizza con aceituna": 1000 ,
+         "Pizza con atun": 1000
+        },
+        "pastes":{
+            "Espaguetis Napolitano": 600 ,
+            "Espaguetis de Jamon": 650 ,
+            "Espaguetis con Chorizo": 650 ,
+            "Espaguetis Boloñesa": 670 ,
+            "Espaguetis con Atun": 800 ,
+            "Lasaña de Jamon": 750 ,
+            "Lasaña de Chorizo": 850 ,
+            "Lasaña Boloñesa": 950 
+        },
+        "breads":{
+        "Emparedado de Atun con Cebolla": 400 ,
+         "Hamburguesa": 350 ,
+         "Emapredado de Heredia": 350 ,
+         "Emparedado Cubano": 350
+        },
+        "drinks":{
+         "Limonada": 100 ,
+         "Jugo de mango": 120 ,
+         "Jugo de Tamarindo": 120 ,
+         "Jugo de guayaba": 120 ,
+         "Coctel de frutas": 150 ,
+         "Batido de Helado": 350 
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Kafe DVD": {
+    "place": "Kafe DVD",
+    "municipality":"DO",
+    "street":"San Francisco entre 10 de Octubre y Delicias",
+    "kitchen": ["comida criolla","comida italiana","comida rápida","hamburguesas"],
+    "recomendation_in_social_red": 0,
+    "social_network": "https://www.facebook.com/kfedvd/?locale=zh_HK",
+    "coordinates":[23.0952805942038, -82.36308070985595],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "tuesday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "wednesday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "thuersday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "friday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "saturday":{
+            "open": 0.00,
+            "close":0.00
+        },
+        "sunday":{
+            "open":0.00,
+            "close":0.00
+        }
+    },
+    "menu": {
+        "appetizers":{
+        "alitas de pollo": 1300 ,
+         "tacos": 600,
+         "croquetas": 400 ,
+         "fajitas de pollo": 900,
+         "tostones al ajillo": 350 ,
+         "tostones": 300,
+         "chicharritas": 150 ,
+         "fritura de malanga": 400,
+         "chorizo": 100 ,
+         "jamon": 100,
+         "queso": 200 ,
+         "cebolla": 100,
+         "pimiento": 100 ,
+         "aceituna": 200
+        },
+        "breads":{
+            "pan con perro": 300 ,
+            "pan con tortilla": 250 ,
+            "pan hamburguesa": 400 ,
+            "pan hamburguesa mariquitas": 500
+        },
+        "main_dishes":{
+        "fricase de cerdo": 1300 ,
+         "masa de cerdo": 1200 ,
+         "chuleta de cerdo": 1500 ,
+         "bistec de cerdo": 1000 ,
+         "bistec de pollo": 950 ,
+         "higado con su salsa": 770 ,
+         "higado a la italiana": 730 ,
+         "higado encebollado": 650 ,
+         "arroz frito": 700
+        },
+        "pastes":{
+            "pastas napolitana": 700
+        },
+        "pizzas":{
+            "pizza grande": 300 ,
+            "pizza chiquita": 200 
+        },
+        "drinks":{
+        "cerveza": 200 ,
+         "enrgizante": 300 ,
+         "jugo lata": 300 ,
+         "refresco":{
+        "refresco pepsi": 250 ,
+         "refresco": 220
+         }
+        }
+    },
+    "there_is_an_additional_charge_for_service": true,
+    "percent_collected":10,
+    "messenger": false
+},
+"Kimera": {
+    "place": "Kimera",
+    "municipality":"DO",
+    "street":"#311, Calle Lacret entre Juan Bruno Zallas y Cortina",
+    "kitchen": ["comida italiana","comida criolla","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network":"instagram -> @kimera.bar.cafeteria",
+    "coordinates":[23.099961605653398, -82.36980253936203],
+    "phone_number":52667701,
+    "horary": {
+        "monday":{
+                "open":12.00,
+                "close":1.00
+            },
+            "tuesday":{
+                "open":12.00,
+                "close":1.00
+            },
+            "wednesday":{
+                "open":12.00,
+                "close":1.00
+            },
+            "thuersday":{
+                "open":12.00,
+                "close":1.00
+            },
+            "friday":{
+                "open":12.00,
+                "close":1.00
+            },
+            "saturday":{
+                "open":12.00,
+                "close":1.00
+            },
+            "sunday":{
+                "open":12.00,
+                "close":1.00
+            }
+    },
+    "menu": {
+        "appetizers":{
+        "Ensalada de vegetales": 450,
+         "Croquetas": 500,
+         "Frituras": 500,
+         "Ceviche": 800,
+         "Ensalada fría": 900,
+         "Eperlan": 1000,
+         "Baston de pollo": 1000,
+         "Picadera de pollo o cerdo": 1200,
+         "combo Kimera": 4000
+        },
+        "creams":{
+        "Crema Aurora": 500,
+         "Crema de queso": 600,
+         "Crema Virginia": 600,
+         "Crema Reina": 650
+        },
+        "pastes":{
+            "Lasagna": 1400,
+            "Espaghettis napolitano": 800,
+            "Espaghettis de jamon": 1300,
+            "Espaghettis Doble Queso": 1400,
+            "Espaghettis Carbonara": 1600,
+           "Espaghettis del mar Kimera": 2500
+        },
+        "pizzas":{
+        "Pizza napolitana": 900,
+         "Pizza de aji o cebolla": 1200,
+         "Pizza de jamon": 1400,
+         "Pizza Hawaiana": 1500,
+         "Pizza de aceitunas": 1500,
+         "Pizza de pollo": 1500,
+         "Pizza Doble Queso": 1700,
+         "Pizza de atun": 1800,
+         "Pizza de cerdo": 1900,
+         "Pizza de Ropa Vieja": 2000,
+         "Pizza del mar Kimera": 2500
+        },
+        "main_dishes":{
+        "Fajitas de pollo": 1500,
+         "Fajitas de pescado": 1500,
+         "Pescado entero frito": 1600,
+         "Rueda de pescado": 1600,
+         "Pollo grille": 1600,
+         "Pollo frito": 1700,
+         "Pollo Princesa": 1700,
+         "Lonjas de cerdo": 1800,
+         "Estofado de cerdo": 1800,
+         "Filete de pescado": 1800,
+         "Ropa vieja": 2000,
+         "Pescado Kimera": 2000,
+         "Gordon Blue": 2000,
+         "Canciller": 2100,
+         "Uruguayo de cerdo": 2300,
+         "Plato Kimera": 4500
+        },
+        "desserts":{
+         "Helado": 320,
+         "Flan": 350,
+         "Tartaleta": 250
+        },
+        "bar":{
+            "cocktails":{
+        "Michelada": 300,
+         "Cuba Libre": 500,
+         "Mojito": 550,
+         "Cubanito": 500,
+         "Cubata": 550,
+         "Destornillador": 550,
+         "Daiquiri": 600,
+         "Caipiroska": 600,
+         "Caipirinha": 600,
+         "Caipirissima": 600,
+         "Canchanchara": 600,
+         "Vodka Tonic": 600,
+         "Whisky Tonic": 600,
+         "Gin Tonic": 700,
+         "Piña Colada": 700,
+         "Sangría": 800,
+         "Margarita": 900
+            }
+        },
+        "drinks":{
+        "Agua": 250,
+         "Refresco": 300,
+         "Cerveza": 320,
+         "Energizante": 400,
+         "Malta": 400,
+         "Malteada": 600,
+         "Batido de frutas": 400,
+         "Batido de helado": 500,
+         "Jugos": 250
+        },
+        "infusions":{
+         "Café Expresso": 150,
+         "Café Cortadito": 200,
+         "Café Cappuccino": 220,
+         "Café Bombón": 300,
+         "Café Frappuccino": 350
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"La Fuente": {
+    "place": "La Fuente",
+    "municipality":"DO",
+    "street":"Calle Acosta e/ 5ta y 6ta. Vista Alegre, Víbora",
+    "kitchen": ["comida criolla","comida internacional","comida italiana"],
+    "recomendation_in_social_red": 0,
+    "social_network": "Instagram -> @lafuentecuba",
+    "coordinates":[23.088731197020714, -82.36063389942495],
+    "phone_number":54147002,
+    "horary": {
+         "monday":{
+            "open":11.00,
+            "close":0.00
+        },
+        "tuesday":{
+            "open":11.00,
+            "close":0.00
+        },
+        "wednesday":{
+            "open":11.00,
+            "close":0.00
+        },
+        "thuersday":{
+            "open":11.00,
+            "close":0.00
+        },
+        "friday":{
+            "open":11.00,
+            "close":0.00
+        },
+        "saturday":{
+            "open":11.00,
+            "close":0.00
+        },
+        "sunday":{
+            "open":11.00,
+            "close":0.00
+        }
+    },
+    "menu": {
+        "appetizers":{
+            "Croquetas de Pollo": 920 ,
+               "Croquetas de Bacalao": 920 ,
+             "Bolitas de Queso": 1200 ,
+            "Ceviche de Pescado": 1550 ,
+               "Coctel de Camarones": 1485,
+               "Coctel de Langosta": 1650,
+               "Carpaccio de Res": 2950,
+               "Jamón Serrano": 3950,
+               "Frituras de Malanga": 660,
+               "Baguette all Oleo": 550,
+               "Pan & Mantequilla": 720,
+               "Brusquetas": 1020,
+               "Eperlan de Pescado": 2275,
+               "Fajitas de Pollo": 2275
+        },
+        "creams":{
+               "Crema del Día": 850,
+               "Crema de Queso": 1000,
+               "Crema Aurora": 1000,
+               "Crema Virginia": 1000,
+               "Crema Mixta": 1200
+        },
+        "main_dishes":{
+            "Ropa Vieja": 2145,
+              "Vaca Frita": 2145,
+               "Bistec de Res Grillé": 2640,
+              "Escalope de Res": 2805,
+              "Milanesa de Res": 3335,
+              "Uruguayo de Res": 3335,
+              "Filet Mignon": 4000,
+               "Bistec de Cerdo Grillé": 1750,
+              "Escalope de Cerdo": 1980,
+               "Masas de Cerdo": 2110,
+              "Cerdo Caribeño": 2310,
+               "Lomo Ahumado": 2500,
+              "Uruguayo de Cerdo": 2610,
+               "Suprema de Pollo Grillé": 2145,
+               "Suprema de Pollo Rellena con Vegetales": 2310,
+              "Angel de Suprema": 2640,
+              "Suprema de Pollo Empanada": 2275,
+               "Milanesa de Pollo": 2475,
+               "Pollo Tropical": 2520,
+              "Cordon Bleu": 2640,
+               "Camarones a la Plancha": 2640,
+              "Camarones Enchilados": 2805,
+              "Camarones al Ajillo": 2970,
+               "Camarones Rebozados": 3300,
+              "Pescado Grillé": 2145,
+              "Escalope de Pescado": 2275,
+              "Pescado Montetoro": 2475,
+               "Pescado Canciller": 2640,
+              "Pescado Joinville": 4620
+        },
+        "pizzas":{
+            "Pizza Napolitana": 1155,
+         "Pizza de Jamón": 1815,
+        "Pizza Hawiana": 1980
+        },
+        "fittings":{
+            "Arroz Blanco": 330,
+            "Arroz Moros y Cristianos": 495,
+            "Arroz Pilaf": 660,
+            "Ensalada Mixta": 495,
+            "Vegetales Salteados": 660,
+            "Puré de Malanga": 500,
+            "Plátanos Maduros Fritos": 525,
+           "Papas Fritas": 800
+        },
+        "desserts":{
+            "Postre del Día": 955
+        },
+        "drinks":{
+            "aguas":{
+         "Agua Mineral Nacional": 250,
+        "Agua con Gas Nacional": 320,
+        "Agua Tónica": 510},
+        "Energizante": 610,
+         "Jugos de Frutas Nacionales": 335,
+        "Jugos Importados": 500,
+        "Limonada Frappe": 520,
+        "Malta": 495,
+         "refrescos":{
+            "Importados": 365
+         },
+        "Batido de Helado": 925,
+         "Kermato": 610,
+         "cerveza":{
+        "Cervezas Nacionales": 395,
+        "Cervezas Importadas": 395,
+         "Cerveza Corona": 600
+         }
+        },
+        "bar":{
+            "cocktails":{
+                "Michelada con Cerveza Nacional": 825,
+        "Michelada con Cerveza Importada": 825,
+         "Michelada con Corona": 925,
+         "Aperol Spritz": 750,
+         "Bloody Mary": 700,
+         "Cubanito": 610,
+        "Caipiriña": 610,
+        "Caipirisima": 610,
+         "Caipiroska": 610,
+        "Cuba Libre": 560,
+         "Daiquiri": 560,
+        "Daiquiri Rebelde": 660,
+        "Gin Tonic": 840,
+         "Margarita": 820,
+        "Mojito": 610,
+         "Piña Colada sin Alcohol": 610,
+               "Piña Colada con Alcohol": 660,
+         "Sangría": 660,
+         "Screwdriver": 610
+            },
+            "drinks":{
+                "Olmeca Blanco": 780,
+         "Olmeca Reposado": 780,
+         "Tequila Rose": 965,
+        "Ballantine's": 785,
+        "Black & White": 610,
+        "Clan Campbell": 630,
+         "Chivas Regall 12 Años": 1150,
+        "Chivas Regall 15 Años": 1650,
+        "Chivas Regall 18 Años": 2550,
+        "Jameson": 610,
+        "Jack Daniel's": 990,
+        "J&B": 610,
+         "Johnnie Walker Red Label": 1050,
+        "Johnnie Walker Black Label": 1550,
+         "Royal Salute 21 Años": 3150,
+         "Havana Club 3 Años": 430,
+        "Havana Club Añejo Especial": 490,
+         "Havana Club Añejo Reserva": 510,
+        "Havana Club 7 Años": 690,
+        "Havana Club Selección de Maestros": 1650,
+         "Santiago 12 Años": 890,
+        "Amaretto Di Amore": 890,
+        "Amaretto Disaronno": 890,
+         "Amarula": 710,
+         "Baileys": 730,
+         "Frangelico": 730,
+         "Jagermeister": 1160,
+         "Vermouth Blanco": 660,
+         "Vermouth Rosso": 660
+            }
+        },
+        "infusions":{
+        "Espresso": 260,
+        "Cortado": 340,
+         "Capuchino": 420,
+         "Americano": 290,
+         "Carajillo": 490,
+         "Frapuccino": 560,
+        "Té": 220
+        }
+    },
+    "there_is_an_additional_charge_for_service": true,
+    "percent_collected":10,
+    "messenger": false
 }
 }

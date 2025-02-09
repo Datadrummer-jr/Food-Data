@@ -397,11 +397,23 @@ ubications = {
 ub = pd.DataFrame(ubications)
 
 ml = []
-for  i in ub.values:
+for i in ub.values:
     ml.append(i)
 
-def map():
+def list_to_df(l: list):
+    df = {
+        "name": [l[0]],
+        "latitud": [l[1]],
+        "longitud":[l[2]],
+        "budget": [l[3]],
+        "phone": [l[4]]
+    }
+    df = pd.DataFrame(l)
+    return df
+
+def map(df):
     map = folium.Map(location=[23.1057291,-82.3581364], zoom_start=10)
-    for i, mp in ub.iterrows():
-        folium.Marker(location=[mp.latitud, mp.longitud], popup=f"{mp['name']} , gasto mínimo(todos los tipos de platos): {mp['budget']}, teléfono : {mp['phone']}" ).add_to(map)
+    for i, mp in df.iterrows():
+        folium.Marker(location=[mp.latitud, mp.longitud], popup=f"{mp['name']} , gasto mínimo(todos los tipos de platos) sin incluir por ciento por el servicio : {mp['budget']}, teléfono : {mp['phone']}" ).add_to(map)
     return map
+
