@@ -110,11 +110,12 @@ def count_muni():
 
 def dict_num_values(l : dict):
    lista = []
-   for i in l.values():
-      if type(i) == int or type(i) == float:
-         lista.append(i)
-      else:
-         lista.extend(dict_num_values(i))
+   if type(l) == dict:
+      for i in l.values():
+          if type(i) == int or type(i) == float:
+              lista.append(i)
+          else:
+              lista.extend(dict_num_values(i))
    return lista
 
 # Función para Calular la media de los precios de un tipo plato en especifico en un municipio #
@@ -130,6 +131,27 @@ def media(x: str,y: str):
                lista = dict_num_values(n)
    median = np.nanmedian(lista)
    return median
+
+# Cálculo para un plato en específico #
+
+def especific_median(types: str, dish: str):
+    lista = []
+    for i in names:
+        menu = data[i]["menu"]
+        for m in menu:
+            if m == types:
+                dr = menu[types]
+                for d in dr:
+                    if d.upper().count(dish.upper()) > 0:
+                        beer = dr[d]
+                        lista.extend(dict_num_values(beer))
+                        if type(beer) == int or type(beer) == float:
+                            lista.append(beer)
+                        else:
+                            continue
+            else:
+                continue
+    return np.median(lista)  
 
 # Función para gráficar #
 
