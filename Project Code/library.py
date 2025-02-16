@@ -137,30 +137,56 @@ def search(origen: str, entrada: str):
 
 # Cálculo para un plato en específico #
 
-def especific_median(types: str, dish: str):
+def especific_dish_median(muni: str,types: str, dish: str):
     lista = []
     for i in names:
-        menu = data[i]["menu"]
-        for m in menu:
-            if m == types:
-                dr = menu[types]
-                for d in dr:
-                    if d.upper().count(dish.upper()) > 0:
-                        beer = dr[d]
-                        lista.extend(dict_num_values(beer))
-                        if type(beer) == int or type(beer) == float:
-                            lista.append(beer)
+        if data[i]["municipality"] == muni:
+            menu = data[i]["menu"]
+            for m in menu:
+                if m == types:
+                    dr = menu[types]
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           beer = dr[d]
+                           lista.extend(dict_num_values(beer))
+                           if type(beer) == int or type(beer) == float:
+                               lista.append(beer)
+                           else:
+                            continue
                         else:
                             continue
-            else:
-                continue
+                else:
+                    continue
+        else: continue
     return np.median(lista)
+
+def median_mariscos(muni: str):
+    lista = []
+    for i in names:
+        if data[i]["municipality"] == muni:
+            menu = data[i]["menu"]
+            for m in menu:
+                if m == "main_dishes":
+                    dr = menu["main_dishes"]
+                    for d in dr:
+                        if d.upper().count(" marisc ".upper()) > 0 or d.upper().count(" mar ".upper()) > 0 or d.upper().count(" mar".upper()) > 0 or d.upper().count("mar ".upper()) > 0:
+                           beer = dr[d]
+                           lista.extend(dict_num_values(beer))
+                           if type(beer) == int or type(beer) == float:
+                               lista.append(beer)
+                           else:
+                            continue
+                        else:
+                            continue
+                else:
+                    continue
+        else: continue
+    return np.median(lista)
+
 
 # COMPARACIÓN DE LOS PRECIOS DE LAS CERVEZAS Y LOS REFRESCOS COMPARADOS CON OTROS LÍQUIDOS #
 
 def drinks():
-    import numpy as np
-    import matplotlib.pyplot as plt
     drink = ["CERVEZAS", "REFRESCOS", "OTROS LÍQUIDOS"] 
     beers = []
     softdrinks = []
@@ -199,10 +225,6 @@ def drinks():
     total.append(mediana_beers)
     total.append(mediana_softdrinks)
     total.append(mediana_others)
-
-    plt.pie(total, labels= drink, autopct="%0.1f %%")
-    plt.title("COMPARACIÓN DE LOS PRECIOS DE LAS CERVEZAS Y LOS REFRESCOS COMPARADOS CON OTROS LÍQUIDOS")
-    plt.show()
 
     plt.bar(drink, total, color = ["y","r","b"])
     plt.xlabel("BEBIDAS")
@@ -531,3 +553,98 @@ def search_person():
                             for cart in data[i]["menu"]:
                                 print(f" {i} : {cart} {data[i]['menu'][cart]}")
 
+
+def median_bar(types: str, dish: str, intdish: str):
+    lista = []
+    for i in names:
+        menu = data[i]["menu"]
+        for m in menu:
+            if m == types:
+                dr = menu[types]
+                for d in dr:
+                    if d.upper().count(dish.upper()) > 0:
+                        beer = dr[d]
+                        for i in beer:
+                            if i == intdish:
+                                lista.extend(dict_num_values(beer))
+                                if type(beer) == int or type(beer) == float:
+                                    lista.append(beer)
+                            else:
+                                continue
+            else:
+                continue
+    return int(np.median(lista))
+
+
+coctail = [median_bar("bar", "cocktails", "mojito"), median_bar("bar", "cocktails", "cuba libre"),median_bar("bar", "cocktails", "daiquiri") ]
+
+name_coctails = ["MOJITO", "CUBA LIBRE", "DAIQUIRI"]
+
+def coctails():
+    plt.bar(name_coctails, coctail)
+    plt.xlabel("CÓCTELES")
+    plt.ylabel("PRECIOS")
+    plt.title("COMPARACIÓN DE LOS PRECIOS DEL MOJITO, CUBA LIBRE Y DAIQUIRI")
+    plt.show()
+
+def percent():
+    no_cobran = 0
+    cinco_percent = 0
+    diez_percent = 0
+    for p in names:
+        charge_for_service = data[p]["there_is_an_additional_charge_for_service"]
+        if charge_for_service == True:
+            percent_collected = data[p]["percent_collected"]
+            if percent_collected == 5:
+                cinco_percent += 1
+            if percent_collected == 10:
+                diez_percent += 1
+            else:
+                continue
+        else:
+            no_cobran += 1
+    total = [no_cobran, cinco_percent, diez_percent]
+    plt.pie(total, labels= ["no cobran por servicio", "cobran cinco por ciento por servicio", "cobran diez por ciento por servicio"], autopct="%0.1f %%")
+    plt.title("COMPARACIÓN DEL POR CIENTO ENTRE LOS RESTAURANTES QUE COBRAN Y NO POR POR SERVICIO")
+    plt.show()
+
+camaron = []
+cangrejo = []
+calamar = []
+pulpo = []
+langosta = []
+other_mariscos = []
+
+for a in x:
+    camaron.append(especific_dish_median(a,"main_dishes", "camaron"))
+    cangrejo.append(especific_dish_median(a,"main_dishes", "cangrejo"))
+    calamar.append(especific_dish_median(a,"main_dishes", "calamar"))
+    pulpo.append(especific_dish_median(a,"main_dishes", "pulpo"))
+    langosta.append(especific_dish_median(a,"main_dishes", "langosta"))
+    other_mariscos.append(median_mariscos(a))
+
+
+def graph_mariscos(categorias, valores, name):
+    num_barras = len(valores)
+    ancho = 0.8 / num_barras 
+
+    x = np.arange(len(categorias))
+
+    plt.figure(figsize=(16, 10))
+
+    for i in range(num_barras):
+        plt.bar(x + i * ancho - (ancho * (num_barras - 1)) / 2, valores[i], width=ancho, label=name[i])
+
+    plt.xlabel('Municipios')
+    plt.ylabel('Precios')
+    plt.title('Gráfica con la comparación de los precios de los mariscos por municipio')
+    plt.xticks(x, categorias)
+    plt.legend()
+    plt.show()
+
+
+list_mariscos = [camaron, cangrejo, calamar, pulpo, langosta, other_mariscos] 
+name_mariscos = ['Camarón', 'Cangrejo', 'Calamar', 'Pulpo', 'Langosta', 'Otros Platos Con Mariscos']
+
+def mariscos():
+    return graph_mariscos(x, list_mariscos, name_mariscos)
