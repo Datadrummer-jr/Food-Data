@@ -11,6 +11,7 @@ import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="Mean of empty slice")
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="invalid value encountered in scalar divide")
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="All-NaN slice encountered")
+warnings.filterwarnings("ignore", category=UserWarning, message="Creating legend with loc='best' can be slow with large amounts of data")
 
 # Importación de los archivos .json #
 
@@ -116,6 +117,17 @@ def dict_num_values(l : dict):
               lista.append(i)
           else:
               lista.extend(dict_num_values(i))
+  
+   return lista
+
+def dict_keys(l : dict):
+   lista = []
+   if type(l) == dict:
+      for i in l.keys():
+          if type(i) == str or type(i) == str:
+              lista.append(i)
+          else:
+              lista.extend(dict_num_values(i))
    return lista
 
 # Función para Calular la media de los precios de un tipo plato en especifico en un municipio #
@@ -135,7 +147,7 @@ def media(x: str,y: str):
 def search(origen: str, entrada: str):
     return origen.upper().count(entrada.upper())
 
-# Cálculo para un plato en específico #
+# Cálculo para un plato en específico por municipio #
 
 def especific_dish_median(muni: str,types: str, dish: str):
     lista = []
@@ -148,6 +160,7 @@ def especific_dish_median(muni: str,types: str, dish: str):
                     for d in dr:
                         if d.upper().count(dish.upper()) > 0:
                            beer = dr[d]
+                           valores = dict_num_values(beer)
                            lista.extend(dict_num_values(beer))
                            if type(beer) == int or type(beer) == float:
                                lista.append(beer)
@@ -160,6 +173,33 @@ def especific_dish_median(muni: str,types: str, dish: str):
         else: continue
     return np.median(lista)
 
+# Cálculo para un plato en específico en general para análizar lagares mas baratos y mas caros #
+
+def dish(types: str, dish: str, rango: int, list_caros: list, list_baratos: list):
+    lista = []
+    for i in names:
+            menu = data[i]["menu"]
+            for m in menu:
+                if m == types:
+                    dr = menu[types]
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           beer = dr[d]
+                           valores = dict_num_values(beer)
+                           precio_maximo = max(valores)
+                           lista.extend(dict_num_values(beer))
+                           if type(beer) == int or type(beer) == float:
+                               lista.append(beer)
+                           else:
+                            continue
+                        else:
+                            continue
+                else:
+                    continue
+    return np.median(lista)
+
+#  Cálculo para los mariscos#
+  
 def median_mariscos(muni: str):
     lista = []
     for i in names:
@@ -168,7 +208,7 @@ def median_mariscos(muni: str):
             for m in menu:
                 if m == "main_dishes":
                     dr = menu["main_dishes"]
-                    for d in dr:
+                    for d in dict_keys(dr):
                         if d.upper().count(" marisc ".upper()) > 0 or d.upper().count(" mar ".upper()) > 0 or d.upper().count(" mar".upper()) > 0 or d.upper().count("mar ".upper()) > 0:
                            beer = dr[d]
                            lista.extend(dict_num_values(beer))
@@ -218,9 +258,9 @@ def drinks():
                             others.extend(dict_num_values(other))
             else:
                 continue
-    mediana_beers = int(np.median(beers))
-    mediana_softdrinks = int(np.median(softdrinks))
-    mediana_others = int(np.median(others))
+    mediana_beers = float(np.median(beers))
+    mediana_softdrinks = float(np.median(softdrinks))
+    mediana_others = float(np.median(others))
 
     total.append(mediana_beers)
     total.append(mediana_softdrinks)
@@ -238,11 +278,14 @@ x = ['AN', 'BY', 'CH', 'CR', 'CT', 'DO', 'GB', 'HE', 'HV','LL','MR','PY','PR','R
 
 def pyplot_bar(y: list, title: str):
     colors = ["r", "r", "g", "r", "r", "r", "r", "r", "g", "r", "r", "g", "g", "r", "r"]
+    etiquetas = {"r": "Municipios Con Pocos Turístas", "g": "Municipios Con Muchos Turístas"}
     plt.figure(figsize=(10, 6))
     plt.bar(x, y, color=colors)
     plt.xlabel("MUNICIPIOS")
     plt.ylabel("CANTIDAD")
     plt.title(title)
+    handles = [plt.Rectangle((0,0),1,1, color=color, label=label) for color, label in etiquetas.items()]
+    plt.legend(handles=handles)
     plt.show()
 
 # Funcón para contar los lugares con mensajería por municipio #
@@ -605,7 +648,7 @@ def percent():
             no_cobran += 1
     total = [no_cobran, cinco_percent, diez_percent]
     plt.pie(total, labels= ["no cobran por servicio", "cobran cinco por ciento por servicio", "cobran diez por ciento por servicio"], autopct="%0.1f %%")
-    plt.title("COMPARACIÓN DEL POR CIENTO ENTRE LOS RESTAURANTES QUE COBRAN Y NO POR POR SERVICIO")
+    plt.title("COMPARACIÓN DEL POR CIENTO ENTRE LOS RESTAURANTES QUE COBRAN Y NO POR SERVICIO")
     plt.show()
 
 camaron = []
@@ -648,3 +691,178 @@ name_mariscos = ['Camarón', 'Cangrejo', 'Calamar', 'Pulpo', 'Langosta', 'Otros 
 
 def mariscos():
     return graph_mariscos(x, list_mariscos, name_mariscos)
+
+def go_to():
+    positive = 0
+    negative = 0
+    for x in names:
+        if ("containers" or "to go") in data[x]["menu"]:
+            positive += 1
+        else:
+            negative += 1
+    count = [positive, negative]
+    name = ["ofertan alimentos para llevar","no ofertan alimentos para llevar" ]
+    plt.pie(count, labels= name, autopct="%0.1f %%")
+    plt.title("Parte de los restaurantes que ofertan alimentos para llevar")
+    plt.show()
+
+
+def social_network():
+    total = len(names)
+    negative = 0
+    for i in names:
+        if pd.isna(data[i]["social_network"]):
+            negative += 1
+    with_network = total - negative
+    return with_network, negative
+
+def with_phone():
+    total = len(names)
+    negative = 0
+    for i in names:
+        if pd.isna(data[i]["phone_number"]):
+            negative += 1
+    with_network = total - negative
+    return with_network, negative
+
+def comunications():
+    sn_with, sn_without = social_network()
+    ph_with, ph_without = with_phone()
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
+    ax1.pie([sn_with, sn_without], labels=["Con redes sociales", "Sin redes sociales"], autopct="%0.1f %%", colors=['#66b3ff', '#ff9999'])
+    ax1.set_title("Porción de los restaurantes que poseen redes sociales")
+    ax2.pie([ph_with, ph_without], labels=["Con teléfono", "Sin teléfono"], autopct="%0.1f %%", colors=['#8fd9b6', '#ffcc99'])
+    ax2.set_title("Porción de los restaurantes que poseen teléfono")
+    plt.tight_layout()
+    plt.show()
+
+
+def remove_duplicados(l: list):
+    newlist = []
+    for i in l:
+        if i not in newlist:
+            newlist.append(i)
+    return newlist
+
+
+def lista(dish:str):
+    list_restaurant = []
+    for i in names:
+            menu = data[i]["menu"]
+            for m in menu:
+                if m == "appetizers":
+                    dr = dict_keys(menu["appetizers"])
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           list_restaurant.append(i)
+                        else:
+                            continue
+                if m =="main_dishes":
+                    dr = dict_keys(menu["main_dishes"])
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           list_restaurant.append(i)
+                        else:
+                            continue
+                if m == "aggregations":
+                    dr = dict_keys(menu["aggregations"])
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           list_restaurant.append(i)
+                        else:
+                            continue
+                if m == "pizzas":
+                    dr = dict_keys(menu["pizzas"])
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           list_restaurant.append(i)
+                        else:
+                            continue
+                if m == "pastes":
+                    dr = dict_keys(menu["pastes"])
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                           list_restaurant.append(i)
+                        else:
+                            continue
+                else:
+                    continue
+    return remove_duplicados(list_restaurant)
+
+
+def median_general(lugar: str, dish: str):
+    lista = []
+    if "appetizers" in data[lugar]["menu"]:
+        for a in data[lugar]["menu"]["appetizers"]:
+            if a.upper().count(dish.upper()) > 0:
+                dishes = data[lugar]["menu"]["appetizers"][a]
+                if type(dishes) == int or type(dishes) == float:
+                    lista.append(dishes)
+                if type(dishes) == dict:
+                   lista.extend(dict_num_values(dishes))
+            else:
+                continue
+    if "main_dishes" in data[lugar]["menu"]:
+        for b in data[lugar]["menu"]["main_dishes"]:
+            if b.upper().count(dish.upper()) > 0:
+                dishes = data[lugar]["menu"]["main_dishes" ][b]
+                if type(dishes) == int or type(dishes) == float:
+                    lista.append(dishes)
+                if type(dishes) == dict:
+                   lista.extend(dict_num_values(dishes))
+            else:
+                continue
+    if "pastes" in data[lugar]["menu"]:
+        for c in data[lugar]["menu"]["pastes"]:
+            if c.upper().count(dish.upper()) > 0:
+                dishes = data[lugar]["menu"]["pastes"][c]
+                if type(dishes) == int or type(dishes) == float:
+                    lista.append(dishes)
+                if type(dishes) == dict:
+                   lista.extend(dict_num_values(dishes))
+            else:
+                continue
+    if "pizzas" in data[lugar]["menu"]:
+        for d in data[lugar]["menu"]["pizzas"]:
+            if d.upper().count(dish.upper()) > 0:
+                dishes = data[lugar]["menu"]["pizzas"][d]
+                if type(dishes) == int or type(dishes) == float:
+                    lista.append(dishes)
+                if type(dishes) == dict:
+                   lista.extend(dict_num_values(dishes))
+            else:
+                continue
+    if "aggregations" in data[lugar]["menu"]:
+        for e in data[lugar]["menu"]["aggregations"]:
+            if e.upper().count(dish.upper()) > 0:
+                dishes = data[lugar]["menu"]["aggregations"][e]
+                if type(dishes) == int or type(dishes) == float:
+                    lista.append(dishes)
+                if type(dishes) == dict:
+                   lista.extend(dict_num_values(dishes))
+            else:
+                continue
+    return (lugar, (float(np.median(lista))))
+
+def list_mar(dish: str, l: list, price: list):
+    list_dish = [median_general(a, dish) for a in lista(dish)]
+    for i in range(len(list_dish)):
+        l.append(list_dish[i][0])
+        if pd.isna(list_dish[i][1]):
+            price.append(0.0)
+        else:
+            price.append(list_dish[i][1])
+    return
+
+list_calamares = []
+calamares = []
+
+list_mar("calamar", list_calamares, calamares)
+
+calamar = {
+    "restaurate": list_calamares,
+    "precio media de los calamares": calamares
+}
+df_calamares = pd.DataFrame(calamar)
+pd.set_option('display.max_rows', None)
+df_calamares
