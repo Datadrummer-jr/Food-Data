@@ -651,7 +651,6 @@ def barra_bar(x, coctails):
         plt.bar(y + i * ancho - (ancho * (num_barras - 1)) / 2, 
                 coctails[i], width=ancho, 
                 label=["MOJITO", "CUBA LIBRE", "DAIQUIRI"][i])
-
     plt.xlabel('Municipios')
     plt.ylabel('Precios')
     plt.title("COMPARACIÓN DE LOS PRECIOS DEL MOJITO, CUBA LIBRE Y DAIQUIRI")
@@ -665,7 +664,6 @@ coctails = [mojito, cuba_libre, daiquiri]
 
 def bar():
     return barra_bar(x, coctails)
-
 
 def percent():
     no_cobran = 0
@@ -933,9 +931,10 @@ def camarones():
     df_camarones_ordenado_end = df_camarones.sort_values(by="Precio Media De Los Camarones", ignore_index=True,ascending=False)
     end_ten_camarones = df_camarones_ordenado_end.head(10)
     print("Restaurantes Con Los Camarones Más Caros :")
-    print(first_ten_camarones)
+    print(end_ten_camarones)
+    
     print("Restaurantes Con Los Camarones Más Baratos :")
-    return  end_ten_camarones
+    return  first_ten_camarones
 
 
 def ice_cream():
@@ -954,5 +953,73 @@ def ice_cream():
     })
     df_ordenado = df_ice_creams.sort_values(by="Presupuesto", ignore_index=True)
     return df_ordenado
+
+
+def restaurant(opcion: str):
+    an = []
+    by = []
+    ch = []
+    ct = []
+    cr = []
+    do = []
+    gb = []
+    he = []
+    hv = []
+    ll = []
+    mr = []
+    py = []
+    pr = []
+    rg = []
+    sm = []
+    mnc = [an,by,ch,ct,cr,do,gb,he,hv,ll,mr,py,pr,rg,sm]
+    municipios = ["Arroyo Naranjo","Boyero","Centro Habana","Cotorro","Cerro","Diez de Octubre","Guanabacoa","Habana del Este","Habana Vieja","La Lisa","Marianao","Playa","Plaza de la Revolución","Regla","San Miguel del Padrón"]
+    prices_max = []
+    prices_min = []
+    for i in names:
+        for o in x:
+            if data[i]["municipality"] == o:
+                m_index = x.index(o)
+                mnc[m_index].append(i)
+    index_maximo = []
+    index_minimo = []
+    for u in range(len(mnc)):
+        index_maximo.append(max(mnc[u]))
+        index_minimo.append(min(mnc[u]))
+    for w in index_maximo:
+        place_index = names.index(w) 
+        prices_max.append(price(place_index))
+    for z in index_minimo:
+        place_index = names.index(z) 
+        prices_min.append(price(place_index))
+
+    df_caro = pd.DataFrame({
+        "Municipio": municipios,
+        "Restaurantes Más Baratos": index_maximo,
+        "Presupuesto": prices_max
+    })
+
+    df_baratos = pd.DataFrame({
+        "Municipio": municipios,
+        "Restaurantes Más Caros": index_minimo,
+        "Presupuesto": prices_min
+    })
+
+    if opcion == "caros":
+        return df_caro
+    if opcion == "baratos":
+        return df_baratos
+
+def bar_hv():
+    total = 0
+    for m in names:
+        if data[m]["municipality"] == "HV":
+            total += 1
+    count = 0
+    for i in names:
+        if data[i]["municipality"] == "HV" and "bar" in data[i]["menu"]:
+            count += 1
+    percent_bar = count / total * 100
+    return f"El {percent_bar} % de los restaurantes de la Habana Vieja cuentan con servicio de bar"
+
 
 
