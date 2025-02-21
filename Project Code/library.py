@@ -21,6 +21,13 @@ data = pd.read_json(p)
 with open("municipality.json") as m:
     muni = json.load(m)
 
+x = ['AN', 'BY', 'CH', 'CR', 'CT', 'DO', 'GB', 'HE', 'HV','LL','MR','PY','PR','RG','SM']
+municipios = ["Arroyo Naranjo","Boyero","Centro Habana","Cotorro","Cerro","Diez de Octubre","Guanabacoa","Habana del Este","Habana Vieja","La Lisa","Marianao","Playa","Plaza de la Revolución","Regla","San Miguel del Padrón"]
+df_municipality = pd.DataFrame({
+    "Abreviatura": x,
+    "Nombre Completo Del Municipio": municipios
+})
+
 names = []
 for n in data:
     names.append(n)
@@ -157,7 +164,7 @@ def especific_dish_median(muni: str,types: str, dish: str):
             for m in menu:
                 if m == types:
                     dr = menu[types]
-                    for d in dr:
+                    for d in dict_keys(dr):
                         if d.upper().count(dish.upper()) > 0:
                            beer = dr[d]
                            valores = dict_num_values(beer)
@@ -274,7 +281,6 @@ def drinks():
 
 # Función para gráficar #
 
-x = ['AN', 'BY', 'CH', 'CR', 'CT', 'DO', 'GB', 'HE', 'HV','LL','MR','PY','PR','RG','SM']
 
 def pyplot_bar(y: list, title: str):
     colors = ["r", "r", "g", "r", "r", "r", "r", "r", "g", "r", "r", "g", "g", "r", "r"]
@@ -597,38 +603,69 @@ def search_person():
                                 print(f" {i} : {cart} {data[i]['menu'][cart]}")
 
 
-def median_bar(types: str, dish: str, intdish: str):
+def median_bar(muni: str, types: str, dish: str, intdish: str):
     lista = []
     for i in names:
-        menu = data[i]["menu"]
-        for m in menu:
-            if m == types:
-                dr = menu[types]
-                for d in dr:
-                    if d.upper().count(dish.upper()) > 0:
-                        beer = dr[d]
-                        for i in beer:
-                            if i == intdish:
-                                lista.extend(dict_num_values(beer))
-                                if type(beer) == int or type(beer) == float:
-                                    lista.append(beer)
-                            else:
-                                continue
-            else:
-                continue
-    return int(np.median(lista))
+        if data[i]["municipality"] == muni:
+            menu = data[i]["menu"]
+            for m in menu:
+                if m == types:  
+                    dr = menu[types]
+                    for d in dr:
+                        if d.upper().count(dish.upper()) > 0:
+                            beer = dr[d]
+                            for i in beer:
+                                if i == intdish:
+                                    lista.extend(dict_num_values(beer))
+                                    if type(beer) == int or type(beer) == float:
+                                        lista.append(beer)
+                                    else:
+                                        lista.extend(dict_num_values(beer))
+                                else:
+                                    continue
+                        else:
+                            continue
+                else:
+                    continue
+        else:
+            continue
+    return np.median(lista)
 
+median_bar("DO","bar", "cocktails", "mojito")
+mojito = []
+cuba_libre = []
+daiquiri = []
 
-coctail = [median_bar("bar", "cocktails", "mojito"), median_bar("bar", "cocktails", "cuba libre"),median_bar("bar", "cocktails", "daiquiri") ]
+for b in x:
+    mojito.append(median_bar(b,"bar", "cocktails", "mojito"))
+    cuba_libre.append(median_bar(b,"bar", "cocktails", "cuba libre"))
+    daiquiri.append(median_bar(b,"bar", "cocktails", "daiquiri"))
 
-name_coctails = ["MOJITO", "CUBA LIBRE", "DAIQUIRI"]
+def barra_bar(x, coctails):
+    num_barras = 3  
+    ancho = 0.8 / num_barras
+    y = np.arange(len(x))  
 
-def coctails():
-    plt.bar(name_coctails, coctail)
-    plt.xlabel("CÓCTELES")
-    plt.ylabel("PRECIOS")
+    plt.figure(figsize=(16, 10))  
+    for i in range(num_barras):
+        plt.bar(y + i * ancho - (ancho * (num_barras - 1)) / 2, 
+                coctails[i], width=ancho, 
+                label=["MOJITO", "CUBA LIBRE", "DAIQUIRI"][i])
+
+    plt.xlabel('Municipios')
+    plt.ylabel('Precios')
     plt.title("COMPARACIÓN DE LOS PRECIOS DEL MOJITO, CUBA LIBRE Y DAIQUIRI")
-    plt.show()
+    plt.xticks(y, x) 
+    plt.legend()
+    plt.show()  
+
+x = ['AN', 'BY', 'CH', 'CR', 'CT', 'DO', 'GB', 'HE', 'HV', 'LL', 'MR', 'PY', 'PR', 'RG', 'SM']
+
+coctails = [mojito, cuba_libre, daiquiri]
+
+def bar():
+    return barra_bar(x, coctails)
+
 
 def percent():
     no_cobran = 0
@@ -669,15 +706,11 @@ for a in x:
 
 def graph_mariscos(categorias, valores, name):
     num_barras = len(valores)
-    ancho = 0.8 / num_barras 
-
+    ancho = 1.0 / num_barras 
     x = np.arange(len(categorias))
-
     plt.figure(figsize=(16, 10))
-
     for i in range(num_barras):
         plt.bar(x + i * ancho - (ancho * (num_barras - 1)) / 2, valores[i], width=ancho, label=name[i])
-
     plt.xlabel('Municipios')
     plt.ylabel('Precios')
     plt.title('Gráfica con la comparación de los precios de los mariscos por municipio')
@@ -696,7 +729,7 @@ def go_to():
     positive = 0
     negative = 0
     for x in names:
-        if ("containers" or "to go") in data[x]["menu"]:
+        if "containers" in data[x]["menu"] or "to go" in data[x]["menu"]:
             positive += 1
         else:
             negative += 1
@@ -866,3 +899,60 @@ calamar = {
 df_calamares = pd.DataFrame(calamar)
 pd.set_option('display.max_rows', None)
 df_calamares
+
+def pulpo():
+    list_pulpo = []
+    pulpo = []
+    list_mar("pulpo", list_pulpo, pulpo)
+    df_pulpo = pd.DataFrame({
+    "Restaurante": list_pulpo,
+    "Precio Media Del Pulpo":pulpo
+    })
+    df_pulpo_ordenado = df_pulpo.sort_values(by="Precio Media Del Pulpo", ignore_index=True)
+    first_ten_pulpo = df_pulpo_ordenado.head(10)
+    df_pulpo_ordenado_end = df_pulpo.sort_values(by="Precio Media Del Pulpo", ignore_index=True,ascending=False)
+    end_ten_pulpo = df_pulpo_ordenado_end.head(10)
+   
+
+    print("Restaurantes Con Los Pulpos Más Caros :")
+    print(end_ten_pulpo)
+
+    print("Restaurantes Con Los Pulpos Más Baratos :")
+    return first_ten_pulpo
+
+def camarones():
+    list_camarones = []
+    camarones = []
+    list_mar("camarones",list_camarones,camarones)
+    df_camarones = pd.DataFrame({
+    "Restaurante Con los Camarones": list_camarones,
+    "Precio Media De Los Camarones": camarones
+    })
+    df_camarones_ordenado = df_camarones.sort_values(by="Precio Media De Los Camarones", ignore_index=True)
+    first_ten_camarones = df_camarones_ordenado.head(10)
+    df_camarones_ordenado_end = df_camarones.sort_values(by="Precio Media De Los Camarones", ignore_index=True,ascending=False)
+    end_ten_camarones = df_camarones_ordenado_end.head(10)
+    print("Restaurantes Con Los Camarones Más Caros :")
+    print(first_ten_camarones)
+    print("Restaurantes Con Los Camarones Más Baratos :")
+    return  end_ten_camarones
+
+
+def ice_cream():
+    restaurantes = []
+    price_ice_cream = []
+    municipality = []
+    for i in names:
+        if "helados" in data[i]["kitchen"]:
+            restaurantes.append(i)
+            price_ice_cream.append(np.median(dict_num_values(data[i]["menu"]["desserts"])))
+            municipality.append(data[i]["municipality"])
+    df_ice_creams = pd.DataFrame({
+        "Restaurante": restaurantes,
+        "Presupuesto": price_ice_cream,
+        "Municipio": municipality
+    })
+    df_ordenado = df_ice_creams.sort_values(by="Presupuesto", ignore_index=True)
+    return df_ordenado
+
+
