@@ -129,7 +129,6 @@
                 "there_is_an_additional_charge_for_service": false,
                 "messenger":false    
     },
-    
      "La Ronda (Bar)" : {
         "place":"La Ronda (Bar)",
         "municipality":"DO",
@@ -140,8 +139,6 @@
         "coordinates": [23.1057291,-82.3581364],
         "phone_number":76990583,
         "horary":{
-            "open":null,
-            "close":null
         },
         "menu":{
                 "bar":{
@@ -650,7 +647,7 @@
             "camarones": 2600,
             "napolitana con queso blanco": 600
         },
-        "aggregations":{
+        "aggregation":{
             "cebolla": 200,
             "pimiento": 200,
             "jamon":300,
@@ -799,7 +796,7 @@
                 "malteada": 670,
                 "super_jugo_natural":350
       },
-      "aggregations": {
+      "aggregation": {
         "cebolla": 275,
         "pimiento": 275,
         "salsa pesto": 350,
@@ -926,7 +923,7 @@
                 "alfredo": 2950,
                 "agilo e olio con dados de tomate": 2755          
             },
-            "aggregations":{
+            "aggregation":{
                 "jamon": {
                     "barra": 500,
                     "serrano": 650                
@@ -1426,7 +1423,7 @@
                 "queso": 980,
                 "fortuna": 1700
             },
-            "aggregations":{
+            "aggregation":{
                 "aceitunas":280,
                 "bacon":380,
                 "atun":400,
@@ -1628,7 +1625,7 @@
                 "macarrones con pechuga y cuatro quesos": 2617
             }
             },
-            "aggregations":{
+            "aggregation":{
                 "queso gouda": 489,
                 "queso parmesano": 489,
                 "embutidos":345,
@@ -1954,7 +1951,7 @@
                     }
                 }
             },
-            "aggregations":{
+            "aggregation":{
                 "queso gouda":400,
                 "jamon":200,
                 "chorizo":220,
@@ -2177,7 +2174,7 @@
                 "con lechon": 500,
                 "con hamburguesa":550
             },
-            "aggregations":{
+            "aggregation":{
                 "queso":70,
                 "jamon":70,
                 "huevo":150
@@ -2468,7 +2465,7 @@
                 "queso":1380,
                 "pizza razones":2190
             },
-            "aggregations":{
+            "aggregation":{
                 "pina":450,
                 "cebolla":460,
                 "pimiento": 450,
@@ -2809,7 +2806,7 @@
             "23 y 12":2000,
             "con hamburguesa": 1450
         },
-        "aggregations":{
+        "aggregation":{
             "queso gouda":350,
             "cebolla":100,
             "huevo":400,
@@ -3011,7 +3008,7 @@
             "smoothie": {
                 "smoothie de frutas":600,
                 "smoothie: de vegetales":600,
-                "aggregations":{
+                "aggregation":{
                     "avena":100,
                     "chia":200,
                     "leche":100,
@@ -3187,7 +3184,7 @@
             "carbonera":3100,
             "bolognesa":2700
         },
-        "aggregations":{
+        "aggregation":{
             "mayonesa":250,
             "huevo":310,
             "aceitunas":370,
@@ -3628,7 +3625,7 @@
         "napolitano":1000,
         "pizza cafe crystal":4000
     },
-    "aggregations":{
+    "aggregation":{
         "jamon":200,
         "queso gouda":650,
         "bacon":500,
@@ -3904,7 +3901,7 @@
             "queso":800,
             "hawaiana":1100
         },
-        "aggregations":{
+        "aggregation":{
             "cebolla":300,
             "ajo":150,
             "pimiento":350,
@@ -4104,7 +4101,7 @@
                 "queso gouda":900
             }
         },
-        "aggregations":{
+        "aggregation":{
             "jamon":150,
             "chorizo":150,
             "pina":150,
@@ -4148,7 +4145,7 @@
             "hamburguesa doble":900,
             "bocadito de jamon y queso":450
         },
-        "aggregations":{
+        "aggregation":{
             "queso":120,
             "lechuga":100,
             "jamon":100,
@@ -4497,7 +4494,7 @@
             "hawaiana":2680,
             "peperoni": 1830
         },
-        "aggregations":{
+        "aggregation":{
             "pina":180,
             "queso":280,
             "chorizo": 410,
@@ -4735,7 +4732,7 @@
             "hamburguesa de res": 6500,
             "hamburguesa mixta": 8125
         },
-        "aggregations":{
+        "aggregation":{
             "jamon": 975,
             "jamon serrano": 1950,
             "queso": 1950,
@@ -4850,7 +4847,7 @@
             "viandas hervidas": 650,
             "platanos maduros fritos": 500
         },
-        "aggregations":{
+        "aggregation":{
             "queso gouda": 385,
             "jamon barra": 420,
             "jamon pierna": 440,
@@ -4998,7 +4995,7 @@
         "mini picadera": 550,
         "picadera guitarron": 3000
      },
-     "aggregations":{
+     "aggregation":{
         "queso_blanco":175,
         "queso gouda":375,
         "jamon":180,
@@ -5117,7 +5114,7 @@
                 "queso gouda": 1040
             }
         },
-        "aggregations":{
+        "aggregation":{
             "queso gouda": 300,
             "jamon":300,
             "aceitunas":360,
@@ -5357,7 +5354,7 @@
             "mega calzone": 2760,
             "familiar": 2880
         },
-        "aggregations":{
+        "aggregation":{
             "champinones": 140,
             "atun": 510,
             "aceitunas": 450,
@@ -6049,7 +6046,7 @@
             "camarones": 2200,
             "langosta": 4500
         },
-        "aggregations":{
+        "aggregation":{
             "cebolla":480,
             "pimiento":480,
             "tomate":480,
@@ -6294,7 +6291,7 @@
             "jamon serrano":2816,
             "nel paradiso":2992
         },
-        "aggregations":{
+        "aggregation":{
             "pimiento":330,
             "pina":330,
             "tomate":380,
@@ -6756,7 +6753,7 @@
                 "bolognesa":1375
             }
         },
-        "aggregations":{
+        "aggregation":{
             "4 quesos":800,
             "jamon":300,
             "aceitunas":290,
@@ -6869,7 +6866,7 @@
                     "embutidos": 200
                 }
             }, 
-            "aggregations":{
+            "aggregation":{
                 "focaccia":60,
                 "calzone de jamon":200,
                 "calzone de carne": 220,
@@ -7183,7 +7180,7 @@
             "margarita": 2800,
             "vegetales":3200
         },
-        "aggregations":{
+        "aggregation":{
             "albondigas": 1100,
             "atun": 500,
             "champinones": 500,
@@ -7718,7 +7715,7 @@
             },
             "lasagna":800
         },
-        "aggregations":{
+        "aggregation":{
             "jamon":200,
             "chorizo":200,
             "cebolla": 150,
@@ -7974,7 +7971,7 @@
         "salsa pesto": 1200,
         " salsa pastor": 2000
       },
-      "aggregations":{
+      "aggregation":{
         "jamon": 300,
         "queso":600,
         "champinones": 375,
@@ -8328,7 +8325,7 @@
         "cebolla": 1500,
         "pizza pequena de 21 cm napolitana": 500
     },
-    "aggregations":{
+    "aggregation":{
         "grande": 
         {"queso gouda":500,
         "queso parmesano": 650,
@@ -8488,7 +8485,7 @@
             "hamburguesa de pollo":1080,
             "hamburguesa de cerdo":1450
         },
-        "aggregations":{
+        "aggregation":{
             "queso":400,
             "jamon":450,
             "chorizo":450,
@@ -8691,7 +8688,7 @@
                 "jamon":1800 
             }
         },
-        "aggregations":{
+        "aggregation":{
             "pequeno":{
                 "queso gouda":560,
                 "jamon":620,
@@ -8898,7 +8895,7 @@
                     "queso":850
                 }
               },
-              "aggregations":{
+              "aggregation":{
                 "pina":300,
                 "pimiento":300,
                 "jamon":300,
@@ -9153,7 +9150,7 @@
             "pizza napolitana":   950.00,
             "pizza ATLANTA": 1800.00
         },
-        "aggregations":{
+        "aggregation":{
             "queso gouda": 250.00,
             "jamón visking":250.00,
             "queso Azul": 650.00,
@@ -9497,7 +9494,7 @@
                     "queso gouda":950
                 }
             },
-            "aggregations":{
+            "aggregation":{
                 "pequeno":{
                     "pina":250,
                     "chorizo":210,
@@ -9938,7 +9935,7 @@
             "sandwich de mortadella":1300,
             "sandwich de jamon york": 1300
         },
-        "aggregations":{
+        "aggregation":{
         "jamón serrano":860,
         "chorizo iberico":550,
         "pepperoni":700,
@@ -9963,7 +9960,7 @@
             "breafasts":{
                 "desayuno americano":1500
             },
-            "aggregations":{
+            "aggregation":{
                 "cheddar":300,
                 "bacon":500,
                 "huevo":300,
@@ -10149,7 +10146,7 @@
                     "napolitano":700
                 }
             },
-            "aggregations":{
+            "aggregation":{
                 "vegetales":180,
                 "jamon":250,
                 "queso":300,
@@ -10299,7 +10296,7 @@
                 "sandwich hawaiano con queso gouda": 430,
                 "hamburguesa sencilla":450
             },
-            "aggregations":{
+            "aggregation":{
                 "jamon":220,
                 "queso gouda":220,
                 "queso blanco":200,
@@ -10444,7 +10441,7 @@
                 "napolitano":870
             }
         },
-        "aggregations":{
+        "aggregation":{
             "queso":390,
             "jamon":460,
             "chorizo":360,
@@ -10856,7 +10853,7 @@
                         "queso":400
                     }
                 },
-                "aggregations":{
+                "aggregation":{
                     "camarones":650,
                     "queso":300,
                     "jamon":200,
@@ -10970,7 +10967,7 @@
         "thai curry verde con res":6120,
         "thai curry verde con vegetales":4600
     },
-    "aggregations":{
+    "aggregation":{
         "res":3355,
         "camarones":2920,
         "salmon":3095,
@@ -11064,7 +11061,7 @@
             "carbonatada": 250
         }
     },
-    "aggregations":{
+    "aggregation":{
         "atun":820,
         "jamon serrano":500,
         "jamon de ternera":500,
@@ -11333,7 +11330,7 @@
             "pasta alla ruota":3000,
             "pasta alla ruota burrata":5000
         },
-        "aggregations":{
+        "aggregation":{
             "pollo":500,
             "camarones":900,
             "langosta":1000
@@ -11564,7 +11561,7 @@
                 "jamon y queso":985
             }
         },
-        "aggregations":{
+        "aggregation":{
             "cebolla":100,
             "champinones":325,
             "guindilla":75,
@@ -11741,7 +11738,7 @@
         "pizzas":{
             "napolitano":900
         },
-        "aggregations":{
+        "aggregation":{
             "jamon":250,
             "queso gouda":800,
             "camarones":800,
@@ -11967,7 +11964,7 @@
         "la mia familiar":4800,
                 "La Mia Familiar de Queso":4000 ,
                   "Familiar Napolitana":2500            },
-                  "aggregations":{
+                  "aggregation":{
                     "queso":320,
                     "jamon":300,
                     "chorizo":220,
@@ -12161,7 +12158,7 @@
             "SANDWICH DE JAMÓN QUESO Y CHORIZO":890.00,
             "SANDWICH CUBANO": 1290.00
         },
-        "aggregations":{
+        "aggregation":{
             "JAMÓN VICKING":120.00,
             "JAMÓN PIERNA":190.00,
             "BACON":190.00,
@@ -12215,7 +12212,7 @@
                 "hawaiana":1290,
                 "pimientos":1040
             },
-            "aggregations":{
+            "aggregation":{
                 "queso gouda":300,
                 "jamon":300,
                 "cebolla":160,
@@ -12393,7 +12390,7 @@
                     "napolitano":500
                 }
             },
-            "aggregations":{
+            "aggregation":{
                 "pina":100,
                 "camarones":350,
                 "queso gouda":300,
@@ -12890,7 +12887,7 @@
             "jugos":250,
             "limonada ":200
         },
-        "aggregations":{
+        "aggregation":{
             "queso gouda":250,
             "jamon":200,
             "chorizo":200,
@@ -13033,7 +13030,7 @@
             "pizza pequena de queso gouda":600,
             "pizzas grandes de queso gouda":850
         },
-        "aggregations":{
+        "aggregation":{
             "pequeno":{
                 "cebolla":150,
                 "jamon":150,
@@ -13182,7 +13179,7 @@
                 "doble queso":920
             }
         },
-        "aggregations":{
+        "aggregation":{
             "aceitunas":200,
             "pina":200,
             "pimiento":220,
@@ -13425,7 +13422,7 @@
             "sandwich Cubano":2200,
             "sandwich vitrola":2200
         },
-        "aggregations":{
+        "aggregation":{
             "queso":2400,
             "jamon":2400,
             "vegetales":2400,
@@ -15301,7 +15298,7 @@
             "medio kilogramo":1000,
             "1 kg de helado":2000
         },
-        "aggregations":{
+        "aggregation":{
             "sirope":10,
             "gragea":10,
             "cereales":10,
@@ -15592,7 +15589,7 @@
             },
             "familiar":3000
         },
-        "aggregations":{
+        "aggregation":{
             "Queso Blanco":100,
             "queso gouda":250,
             "jamon":100,
@@ -15678,7 +15675,7 @@
             "vianda":175,
             "vegetales salteados":200
         },
-        "aggregations":{
+        "aggregation":{
             "chorizo":120
         },
         "bar":{
@@ -15791,7 +15788,7 @@
             "tabla parrillera":3320,
             "tabla mixta de la casa":4138
         },
-        "aggregations":{
+        "aggregation":{
             "aceitunas":{
                 "negras":350,
                 "verdes":250
@@ -16348,7 +16345,7 @@
         "lasagna":900,
         "raviolli":900
     },
-    "aggregations":{
+    "aggregation":{
         "pina":200,
         "cebolla":200,
         "pimiento":200,
@@ -16446,7 +16443,7 @@
             "hamburguesa de cerdo":750,
             "hamburguesa de res":650
       },
-      "aggregations":{
+      "aggregation":{
         "atun":450,
         "aceitunas":450,
         "queso gouda":300,
@@ -17022,7 +17019,7 @@
             "hamburguesa de cerdo":640,
             "hamburguesa de chorizo":640
         },
-        "aggregations":{
+        "aggregation":{
             "ketchup":160,
             "mostaza":160,
             "mayonesa":160,
@@ -17076,7 +17073,7 @@
             "de la casa":1050,
             "jamon":1000
         },
-        "aggregations":{
+        "aggregation":{
             "cebolla":300,
             "pimiento":300,
             "queso gouda":350
@@ -17151,7 +17148,7 @@
             "bocadito de jamon":220,
             "hamburguesa a la cubana":480
         },
-        "aggregations":{
+        "aggregation":{
             "jamon":60,
             "queso":140,
             "chorizo":80
@@ -17286,7 +17283,7 @@
             "crispi de pollo":650,
             "crispi de pollo verano":700
         },
-        "aggregations":{
+        "aggregation":{
             "jamon":260,
             "bacon":260,
             "queso":300,
@@ -17440,7 +17437,7 @@
                 "napolitano":600
             }
         },
-        "aggregations":{
+        "aggregation":{
             "queso":300,
             "jamon":200,
             "chorizo":200,
@@ -17523,7 +17520,7 @@
             "jamon":1400,
             "hawaiana":1500
         },
-        "aggregations":{
+        "aggregation":{
             "queso" : 500,
           "jamon" : 300,
           "piña" : 150,
@@ -18288,7 +18285,7 @@
             "hamburguesa de pollo":430,
             "hamburguesa especial de la casa":1500
         },
-        "aggregations":{
+        "aggregation":{
             "jamon" : 100.00,
         "queso" : 100.00,
         "vegetales" : 100.00,
@@ -18475,7 +18472,7 @@
             "hamburguesa de res": 600,
             "hamburguesa Shapusero": 1200
         },
-        "aggregations":{
+        "aggregation":{
             "queso": 150,
             "jamon": 120,
             "chorizo": 150,
@@ -18554,7 +18551,7 @@
             "Hamburguesa jamón y queso": 1650,
             "Hamburguesa onbazar": 2700
        },
-       "aggregations":{
+       "aggregation":{
         "Jamón": 150,
             "Cebolla": 150,
             "Chorizo": 150,
@@ -18721,7 +18718,7 @@
             "Nuggets de pollo": 2000,
             "Masas de cerdo": 1750
         },
-        "aggregations":{
+        "aggregation":{
             "Ají": 150,
             "Chorizo": 300,
             "Atún": 600,
@@ -18871,7 +18868,7 @@
             "Lasaña Boloñesa": 1550,
             "Lasaña de Jamon": 1490
         },
-        "aggregations":{
+        "aggregation":{
             "Aceitunas": 220,
             "Piña": 220,
             "Cebolla": 400,
@@ -19224,7 +19221,7 @@
                 "Langosta Enchilada": 3600,
                 "Langosta Marinera": 4000
         },
-        "aggregations":{
+        "aggregation":{
             "Cebolla": 450,
                 "Jamon": 560,
                 "Salame": 550,
@@ -19335,7 +19332,7 @@
                 "Pizza de Vegetales": 950,
                 "Pizza de Champiñones": 1350
         },
-        "aggregations":{
+        "aggregation":{
         "For Hamburger":{
                         "Jamon": 150,
                         "Bacon": 150,
@@ -19803,7 +19800,7 @@
             "Pasta Napolitana":975,
             "lasagna":1525
         },
-        "aggregations":{
+        "aggregation":{
             "Chorizo": 300,
                 "Jamon": 360,
                 "Champiñones": 225,
@@ -20159,7 +20156,7 @@
           "Pizza Hawaiana": 1700.00,
           "Pizza Mi Terraza": 1800.00
         },
-        "aggregations":{
+        "aggregation":{
            "Doble queso (150g)": 500.00,
           "Jamón (60g)": 300.00,
           "Cebolla": 250.00,
@@ -20416,7 +20413,7 @@
             "familiar c/queso gouda":650,
             "familiar c/queso blanco": 450
         },
-        "aggregations":{
+        "aggregation":{
             "jamón":120,
             "perrito":120,
             "chorizo":120,
@@ -21364,7 +21361,7 @@
                 ,
                 "Pizza de jamon":1350
         },
-        "aggregations":{
+        "aggregation":{
             "jamon":260,
             "queso":260,
             "Salami":200
@@ -21868,7 +21865,7 @@
             "napolitana grande":650,
             "napolitana":220
     },
-    "aggregations":{
+    "aggregation":{
         "queso":200,
         "chorizo":300,
         "jamon":300,
@@ -24332,7 +24329,7 @@
             
                  "frutti di mare": 2400
         },
-        "aggregations":{
+        "aggregation":{
             
             "piña": 150
             ,
@@ -24843,7 +24840,7 @@
         "pizzas":{
             "Pizza napolitana": 850
         },
-        "aggregations":{
+        "aggregation":{
             "Jamon": 350 ,
          "Atun": 500 ,
          "Chorizo": 350 ,
@@ -24953,7 +24950,7 @@
             "Pizza Panna": 1950,
             "Pizza Prosciutto": 2150
         },
-        "aggregations":{
+        "aggregation":{
             "Champignones": 250,
          "Queso azul": 550,
          "Queso Parmesano": 800,
@@ -25734,7 +25731,7 @@
             
                  "lasagna de bolonesa": 2150
         },
-        "aggregations":{
+        "aggregation":{
             "jamon serrano": 850
             ,
             
@@ -26318,7 +26315,7 @@
             
              "pizza de queso gouda": 250
         },
-        "aggregations":{
+        "aggregation":{
             "jamon": 100
             ,
             
@@ -26619,7 +26616,7 @@
                 
                      "pizza de queso blanco (large)": 520
         },
-        "aggregations":{
+        "aggregation":{
             "queso": 200
             ,
             

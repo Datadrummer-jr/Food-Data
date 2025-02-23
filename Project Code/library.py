@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import folium
+import seaborn as sns
 import warnings
 
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="Mean of empty slice")
@@ -320,7 +321,7 @@ for dvs in x:
 
 # Precios#
 
-def dish_median(index: int):
+def dish_median(index: str):
     bkf = "breafasts"
     lbkf = []
     ent = "appetizers"
@@ -331,7 +332,7 @@ def dish_median(index: int):
     lftt = []
     pzz = "pizzas"
     lpzz = []
-    agg = "aggregations"
+    agg = "aggregation"
     lagg = []
     crm = "creams"
     lcrm = []
@@ -352,7 +353,7 @@ def dish_median(index: int):
     inf = "infusions"
     linf = []
     for i in names:
-        if names.index(i) == index:
+        if i == index:
             menu = data[i]["menu"]
             for r in menu:
                 if r == bkf:
@@ -470,7 +471,7 @@ def dish_median(index: int):
         median.append(float(np.nanmedian(r)))
     return median
 
-def price(index: int):
+def price(index:str):
     budget = np.nansum(dish_median(index))
     return int(budget)
 
@@ -480,8 +481,7 @@ salaries = muni["LH"]["salario_medio_en_2023"]
 salary = []
 
 for s in names:
-    index = names.index(s)
-    bt = price(index)
+    bt = price(s)
     if bt <= salaries:
         salary.append(s)
 
@@ -498,6 +498,23 @@ def posibility(p: str):
 pb = []
 for pby in x:
     pb.append(posibility(pby))
+
+def median_for_municipality():
+    mnc = [[] for i in range(15)]
+    for i in names:
+        for o in x:
+            if data[i]["municipality"] == o:
+                m_index = x.index(o)
+                mnc[m_index].append(price(i))
+    mediana_for_region = []
+    for z in mnc:
+        median = np.median(z)
+        mediana_for_region.append(median)
+    df_median = pd.DataFrame({
+             "restaurante": municipios,
+             "Costos Media De Los Restaurantes Por Municipio": mediana_for_region
+    })
+    return df_median
 
 # Mapas y Datos de lugares
 
@@ -594,8 +611,7 @@ def search_person():
     for i in names:
         munis = data[i]["municipality"]
         if m == munis:
-            index = names.index(i)
-            if price(index) <= b:
+            if price(i) <= b:
                 for kn in data[i]["kitchen"]:
                     if kn.upper().count(k.upper()) > 0:
                         if "si".upper().count(c.upper()) > 0:
@@ -795,8 +811,8 @@ def lista(dish:str):
                            list_restaurant.append(i)
                         else:
                             continue
-                if m == "aggregations":
-                    dr = dict_keys(menu["aggregations"])
+                if m == "aggregation":
+                    dr = dict_keys(menu["aggregation"])
                     for d in dr:
                         if d.upper().count(dish.upper()) > 0:
                            list_restaurant.append(i)
@@ -863,10 +879,10 @@ def median_general(lugar: str, dish: str):
                    lista.extend(dict_num_values(dishes))
             else:
                 continue
-    if "aggregations" in data[lugar]["menu"]:
-        for e in data[lugar]["menu"]["aggregations"]:
+    if "aggregation" in data[lugar]["menu"]:
+        for e in data[lugar]["menu"]["aggregation"]:
             if e.upper().count(dish.upper()) > 0:
-                dishes = data[lugar]["menu"]["aggregations"][e]
+                dishes = data[lugar]["menu"]["aggregation"][e]
                 if type(dishes) == int or type(dishes) == float:
                     lista.append(dishes)
                 if type(dishes) == dict:
@@ -898,25 +914,6 @@ df_calamares = pd.DataFrame(calamar)
 pd.set_option('display.max_rows', None)
 df_calamares
 
-def pulpo():
-    list_pulpo = []
-    pulpo = []
-    list_mar("pulpo", list_pulpo, pulpo)
-    df_pulpo = pd.DataFrame({
-    "Restaurante": list_pulpo,
-    "Precio Media Del Pulpo":pulpo
-    })
-    df_pulpo_ordenado = df_pulpo.sort_values(by="Precio Media Del Pulpo", ignore_index=True)
-    first_ten_pulpo = df_pulpo_ordenado.head(10)
-    df_pulpo_ordenado_end = df_pulpo.sort_values(by="Precio Media Del Pulpo", ignore_index=True,ascending=False)
-    end_ten_pulpo = df_pulpo_ordenado_end.head(10)
-   
-
-    print("Restaurantes Con Los Pulpos Más Caros :")
-    print(end_ten_pulpo)
-
-    print("Restaurantes Con Los Pulpos Más Baratos :")
-    return first_ten_pulpo
 
 def camarones():
     list_camarones = []
@@ -985,12 +982,8 @@ def restaurant(opcion: str):
     for u in range(len(mnc)):
         index_maximo.append(max(mnc[u]))
         index_minimo.append(min(mnc[u]))
-    for w in index_maximo:
-        place_index = names.index(w) 
-        prices_max.append(price(place_index))
-    for z in index_minimo:
-        place_index = names.index(z) 
-        prices_min.append(price(place_index))
+    for w in index_maximo: 
+        prices_max.append(price(w))
 
     df_caro = pd.DataFrame({
         "Municipio": municipios,
@@ -998,16 +991,8 @@ def restaurant(opcion: str):
         "Presupuesto": prices_max
     })
 
-    df_baratos = pd.DataFrame({
-        "Municipio": municipios,
-        "Restaurantes Más Caros": index_minimo,
-        "Presupuesto": prices_min
-    })
-
     if opcion == "caros":
         return df_caro
-    if opcion == "baratos":
-        return df_baratos
 
 def bar_hv():
     total = 0
@@ -1020,6 +1005,112 @@ def bar_hv():
             count += 1
     percent_bar = count / total * 100
     return f"El {percent_bar} % de los restaurantes de la Habana Vieja cuentan con servicio de bar"
+
+def list_hv():
+    hv = []
+    for i in names:
+        if data[i]["municipality"] == "HV":
+            hv.append(i)
+    return hv
+
+def df_hv():
+    prices_hv = []
+    for i in list_hv():
+        prices_hv.append(price(i))
+    df = pd.DataFrame({
+        "Restaurante": list_hv(),
+        "Presupuesto Requerido Por Persona": prices_hv 
+    })
+    return df.sort_values(by= "Presupuesto Requerido Por Persona", ignore_index= True)
+          
+def graph_bar_hv():
+    l_bar = []
+    bar_median = []
+    for i in list_hv():
+        if "bar" in data[i]["menu"]:
+            l_bar.append(i)
+            bar_median.append(np.median(dict_num_values(data[i]["menu"]["bar"])))
+    x = l_bar
+    y = bar_median
+    plt.figure(figsize=(16, 10))
+    plt.barh(x, y, color= "red")
+    plt.title("Precio Medio De Las Bebidas En Los Bares De Los Restaurantes De Habana Vieja")
+    plt.ylabel("Restaurantes")
+    plt.xlabel("Precios")
+    plt.show()
+
+def list_anidada(l: list):
+    new_list = []
+    for i in l:
+        if type(i) != list:
+            new_list.append(i)
+        else:
+            new_list.extend(list_anidada(i))
+    return new_list
+
+def type_dish_muni(l: list, code_muni: str, s: list, v: list):
+    median_for_dish = []
+    ldishes = []
+    for i in l:
+        ldishes.append(dict_keys(data[i]["menu"]))
+    types = remove_duplicados(list_anidada(ldishes))
+    ln = len(types)
+    type_dishes = types[0:ln-4]
+    for d in type_dishes:
+        median_for_dish.append(media(code_muni, d))
+    v.extend(median_for_dish)
+    s.extend(type_dishes)
+
+def graph_dish_hv():
+    dish_hv = []
+    median_hv = []
+    x = dish_hv
+    y = median_hv
+    type_dish_muni(list_hv(),"HV", dish_hv, median_hv)
+    plt.figure(figsize=(16, 10))
+    plt.bar(x,y, color= ["b","g","r", "c", "m","y","b","g","r", "c", "m","y", "b", "r" ,"g"])
+    plt.title("Comparación del precio de los diferentes tipos de plato en La Habana vieja")
+    plt.xlabel("Tipos de Platos")
+    plt.ylabel("Precios")
+    plt.show()
+
+def graph_drinks_hv():
+    l_drinks = []
+    drinks_median = []
+    for i in list_hv():
+        if "drinks" in data[i]["menu"]:
+            l_drinks.append(i)
+            drinks_median.append(np.median(dict_num_values(data[i]["menu"]["drinks"])))
+    x = l_drinks
+    y = drinks_median
+    plt.figure(figsize=(16, 10))
+    plt.barh(x, y, color= "orange")
+    plt.title("Precio Medio De Las Bebidas En Los Restaurantes De Habana Vieja")
+    plt.ylabel("Restaurantes")
+    plt.xlabel("Precios")
+    plt.show()
+
+def count_drinks():
+    total = len(list_hv())
+    count = 0
+    for i in names:
+        if data[i]["municipality"] == "HV" and "drinks" in data[i]["menu"]:
+            count += 1
+    percent_bar = count / total * 100
+    return f"El {percent_bar} % de los restaurantes de Habana Vieja venden bebidas alcohólicas y no alcohólicas" 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
