@@ -1112,8 +1112,6 @@ def df_do():
     })
     return df.sort_values(by="Presupuesto Requerido Por Persona", ignore_index=True)
 
-
-
 def pizzas_do():
     count = 0
     pizzas = []
