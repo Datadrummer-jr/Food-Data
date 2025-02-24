@@ -1099,6 +1099,42 @@ def count_drinks():
     percent_bar = count / total * 100
     return f"El {percent_bar} % de los restaurantes de Habana Vieja venden bebidas alcohólicas y no alcohólicas" 
 
+list_do = []
+def df_do():
+    prices_do = []
+    for o in names:
+        if data[o]["municipality"] == "DO":
+            prices_do.append(price(o))
+            list_do.append(o)
+    df = pd.DataFrame({
+        "Restaurante": list_do,
+        "Presupuesto Requerido Por Persona": prices_do
+    })
+    return df.sort_values(by="Presupuesto Requerido Por Persona", ignore_index=True)
+
+
+
+def pizzas_do():
+    count = 0
+    pizzas = []
+    prices_pizzas = [] 
+    for i in names:
+        if data[i]["municipality"] == "DO" and "pizzas" in data[i]["menu"]:
+            count += 1
+            pizzas.append(i)
+            prices_pizzas.append(np.median(dict_num_values(data[i]["menu"]["pizzas"])))
+    x = pizzas
+    y = prices_pizzas
+    print(f"El {(count / len(list_do)) *100} % de los restaurantes de Diez de Octure venden pizzas.")
+    plt.figure(figsize=(16, 10))
+    plt.barh(x, y, color= "yellow")
+    plt.title("Precio Medio De Las Pizzas En El Municipio Diez De Octubre")
+    plt.ylabel("Restaurantes")
+    plt.xlabel("Precios")
+    return plt.show()
+
+
+
 
 
 
