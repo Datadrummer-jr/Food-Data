@@ -28979,5 +28979,738 @@
     },
     "there_is_an_additional_charge_for_service": false,
     "messenger": false
+},
+"Fin de Siglo": {
+    "place": "Fin de Siglo",
+    "municipality":"CH",
+    "street":"",
+    "kitchen": ["comida italiana","comida criolla"],
+    "recomendation_in_social_red": 0,
+    "social_network": "Facebbook -> Fin de Siglo",
+    "coordinates":[23.136227081972006,-82.36206873376179 ],
+    "phone_number":59529982,
+    "horary": {
+        "monday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "tuesday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "friday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "sunday":{
+            "open":10.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+        "appetizers":{
+            "croquetas de la casa": 700
+            ,
+            "pollo salteado con vegetales": 800
+            ,
+            "tabla de jamon y queso": 1200
+            ,
+            "picadera Fin de siglo": 2500
+        },
+        "pizzas":{
+            "pizza de queso blanco": 800
+                ,
+                "pizza de queso blanco con jamon": 950
+                ,
+                "pizza de queso blanco con chorizo": 950
+                ,
+                "pizza de queso blanco hawaiana": 1500
+                ,
+                "pizza de queso gouda": 1200
+                ,
+                "pizza de queso gouda con jamon": 1400
+                ,  
+                "pizza de queso gouda con chorizo": 1400
+                ,
+                "pizza de queso gouda hawaiana": 1800
+        },
+        "pastes":{
+            "spaghetti de queso blanco": 900
+            ,
+            "spaghetti de queso blanco con jamon": 1000
+            ,
+            "spaghetti de queso blanco con chorizo": 1000
+            ,
+            "spaghetti de queso blanco con pollo": 850
+            ,
+            "spaghetti de queso gouda": 1200
+            ,
+            "spaghetti de queso gouda con jamon": 1400
+            ,  
+            "spaghetti de queso gouda con chorizo": 1400
+        },
+        "aggregation":{
+            "queso blanco": 500
+                ,
+                "queso gouda": 700
+                ,
+                "jamon": 450
+                ,
+                "pollo": 350
+                ,
+                "piña": 550
+                ,
+                "chorizo": 450
+        },
+        "drinks":{
+            "cerveza dispensada" : 400
+        },
+        "bar":{
+            "cocktails":{
+                "caipirinha": 550
+                ,
+                "caipiríssima": 550
+                ,
+                "caipiroska": 660
+                ,
+                "daiquirí": 550
+                ,
+                "daiquirí Rebelde": 550
+                ,
+                "margarita": 990
+                ,
+                "cubata": 550
+                ,
+                "cuba Libre": 550,
+                "chelada": 770
+                ,
+                "michelada": 880
+            },
+            "drinks":{
+                "3 Años": 385
+                ,
+                "carta Blanca": 330
+                ,
+                "especial": 440
+                ,
+                "pacto Navío": 20000
+                ,
+                "cuban spiced": 550
+                ,
+                "ron santiago": 880
+                ,
+                "jameson": 1100
+                ,
+                "clan sampbell": 990
+                ,
+                "vat 69": 990
+                ,
+                "ballantines": 13500
+                ,
+                "old partner": 35000
+                ,
+                "red label": 1100
+                ,
+                "beeffatter": 440
+                ,
+                "jagger": 990
+                ,
+                "tequila silver": 880
+                ,
+                "tequila reposado": 990
+                ,
+                "tequila chocolate": 1100
+                ,
+                "rua vieja": 880
+                ,
+                "amaretto": 880
+            }
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Decamerón": {
+    "place": "Decamerón",
+    "municipality":"PR",
+    "street":"",
+    "kitchen": ["comida criolla", "comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": "instagram -> restaurantedecameron",
+    "coordinates":[23.13687569067757, -82.39995132251141],
+    "phone_number": 78322444,
+    "horary": {
+        "monday":{
+                "open":11.00,
+                "close":23.30
+            },
+            "tuesday":{
+                "open":11.00,
+                "close":23.30
+            },
+            "wednesday":{
+                "open":11.00,
+                "close":23.30
+            },
+            "thuersday":{
+                "open":11.00,
+                "close":23.30
+            },
+            "friday":{
+                "open":11.00,
+                "close":23.30
+            },
+            "saturday":{
+                "open":11.00,
+                "close":23.30
+            },
+            "sunday":{
+                "open":11.00,
+                "close":23.30
+            }
+    },
+    "menu": {
+        "appetizers":{
+            "pan de la casa y dip con aroma de pesto": 750
+            ,
+             "frituras de malanga con chutney de papaya picantica": 1350
+            ,
+             "croquetas caseras con mayonesa ligera de pepino y limón": 1500
+            ,
+             "empanadillas de yuca rellenas de cangrejo y melado de caña": 1650
+            ,
+             "tacos de maiz o trigo con carnitas de cerdo confitadas, mojo estilizado, frijoles refritos, lechuga y cebolla caramelizada": 1650
+            ,
+             "berenjena asada con pisto manchego y queso al gratén": 2100
+            ,
+             "pulpo salteado a la plancha con aceite de pimentón ahumado, escabeche de malanga y verduritas": 2550
+            ,
+             "seviche de pescado del día": 2400
+            ,
+             "crema de calabaza con costrones de pan y queso": 1350
+            ,
+             "sopa-crema de pollo a la casera": 1500
+        },
+        "main_dishes":{
+            "caprichosa": 2100
+                ,
+                 "decamerón": 2100
+                ,
+                 "arroz caldoso con pollo, cerdo y butifarra": 3600
+                ,
+                 "arroz negro con pulpo, camarones, almejas y emulsión alioli": 4500
+                ,
+                 "caldereta del mar con salsa picosa y azafrán": 7500
+                ,
+                 "filete de pescado del día a lo principeno": 4200
+                ,
+                 "langosta a la habanera": 6000
+                ,
+                 "camarones a la crema de coco y jengibre": 4800
+                ,
+                 "solomillo de res con salsa española, queso azul y champiñones": 6900
+                ,
+                 "wok de lonjas de filete, salteado de verduras y salsa teriyaki": 5400
+                ,
+                 "ropa vieja a lo cubano con macho maduro frito": 3900
+                ,
+                 "chuletón de cerdo sobre espejo de malanga, emulsión de tamarindo y brochetas de verduras a la plancha": 4500
+                ,
+                 "masas de cerdo confitadas sobre mofongo de yuca y chicharrones": 3600
+                ,
+                 "pollo en aderezo satay, champiñones, frutos secos y vegetales": 3300
+                ,
+                 "confite de cordero en su esencia de vino y finas hierbas": 4200
+                ,
+                 "ensalada griega": 2100
+                ,
+                 "carpaccio de res": 2400
+                ,
+                 "pinchos de camarón y pollo con pilaf de uvas pasas": 4500
+                ,
+                 "entrecot de res (anojo) triple A": 9000
+                ,
+                 "tagliatelle fresco al fruto de mar": 4500
+                ,
+                 "canoa de la pasión": 2850
+                ,
+                 "pasta fresca primavera con parmesano y pesto hecho a nuestro modo": 3300
+        },
+        "fittings":{
+            "arroz blanco": 600
+            ,
+             "frijoles negros dormidos": 600
+            ,
+             "vegetales salteados": 600
+            ,
+             "tostones de plátano": 600
+            ,
+             "boniato frito": 600
+            ,
+             "puré de malanga": 600
+            ,
+             "plátano maduro frito": 600
+            ,
+             "ensalada buena salud": 1500
+        },
+        "desserts":{
+            "tartas variadas del día": 1400
+                ,
+                 "pie de limón": 1400
+                ,
+                 "helados": 1400
+                ,
+                 "flan de caramelo": 1120
+        },
+        "drinks":{
+            "aguas":{
+                "agua natural nacional": 450
+                ,
+                 "agua natural nacional grande": 750
+                ,
+                 "agua con gas nacional": 750
+            },
+            "refresco":{
+                "refrescos": 600
+                ,
+                 "refrescos importados": 750
+               
+            }
+            ,
+            "bebidas energéticas": 900,
+            "limonada": 1200
+                ,
+                 "limonada frappé": 1350
+                ,
+                 "limonada verde frescura": 1500
+                ,
+                 "jugos naturales": 750
+        },
+        "bar":{
+            "cocktails":{
+                "mojito": 1500
+                ,
+                 "mojito 7": 2100
+                ,
+                 "cuba libre": 1350
+                ,
+                 "daiquirí": 1500
+                ,
+                 "daikirí de frutas": 1800
+                ,
+                 "coctel decamerón": 1800
+                ,
+                 "cubata": 1350
+                ,
+                 "ron collins": 1500
+                ,
+                 "pina colada": 1950
+                ,
+                 "cubanito": 1950
+                ,
+                 "havana special": 1500
+                ,
+                 "bloody mary": 1950
+                ,
+                 "mary pickford": 1500
+                ,
+                 "sangría de vino tinto": 1950
+                ,
+                 "sangría de vino blanco": 1950
+                ,
+                 "jarra de sangría": 3000
+                ,
+                 "tinto de verano": 1800
+                ,
+                 "michelada": 1500
+                ,
+                 "chelada": 1500
+                ,
+                 "manhattan": 3000
+                ,
+                 "caipirina": 2400
+                ,
+                 "caipiroska": 2400
+                ,
+                 "martini": 2400
+                ,
+                 "tom collins": 1500
+                ,
+                 "gin-tónic": 2400
+                ,
+                 "vodka tonic": 2400
+                ,
+                 "moscow mule": 2400
+                ,
+                 "cervezas": 750
+                ,
+                 "cervezas heineken": 1050
+                ,
+                 "copa de vino tinto/blanco": 1350
+                ,
+                 "black russian": 2100
+                ,
+                 "screwdriver": 1800
+                ,
+                 "canchánchara": 1800
+                ,
+                 "concha 7": 1800
+                ,
+                 "orgasmo": 2550
+                ,
+                 "aperol spritz": 2550
+                ,
+                 "aperol negroni": 2550
+                ,
+                 "negroni": 2550
+                ,
+                 "aperol collins": 2550
+                ,
+                 "mimosa": 2550
+                ,
+                 "margarita": 2550
+                ,
+                 "presidente seco": 1800
+                ,
+                 "presidente dulce": 1800
+                ,
+                 "san francisco": 1200
+                
+            }
+        },
+        "infusions":{
+            "expresso": 560
+                ,
+                 "americano": 560
+                ,
+                 "café descafeinado": 560
+                ,
+                 "café con hielo": 560
+                ,
+                 "cortado": 560
+                ,
+                 "café con leche": 700
+                ,
+                 "café bombón": 700
+                ,
+                 "carajillo": 700
+                ,
+                 "frapuccino": 840
+                ,
+                 "café capuccino": 700
+                ,
+                 "irish coffee": 1260
+                ,
+                 "té caliente": 420
+                ,
+                 "té frío": 420
+                ,
+                 "manzanilla": 420
+                ,
+                 "menta": 420
+        }
+        },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Floridita": {
+    "place": "Floridita",
+    "municipality":"HV",
+    "street":"Obispo #557 esquina Monserrate",
+    "kitchen": ["criolla","comida internacional"],
+    "recomendation_in_social_red": 0,
+    "social_network": "instagram -> @elfloridita",
+    "coordinates":[23.137423,-82.357396],
+    "phone_number":78671299,
+    "horary": {
+        "monday":{
+            "open":12.00,
+            "close":1.00
+        },
+        "tuesday":{
+            "open":12.00,
+            "close":1.00
+        },
+        "wednesday":{
+            "open":12.00,
+            "close":1.00
+        },
+        "thuersday":{
+            "open":12.00,
+            "close":1.00
+        },
+        "friday":{
+            "open":12.00,
+            "close":1.00
+        },
+        "saturday":{
+            "open":12.00,
+            "close":1.00
+        },
+        "sunday":{
+            "open":12.00,
+            "close":1.00
+        }
+    },
+    "menu": {
+        "appetizers":{
+            "Ceviche Caribeño": 1200
+        ,   
+        "Coctel de Langosta": 1200
+        ,   
+        "El Viejo y Mar(Para Compartir)":  
+           2150
+        ,   
+        "Jamon Serrano": 1350
+        ,   
+        "Seleccion de Quesos": 1200
+        ,   
+        "Pica Pica del Chef":  750
+        ,   
+        "Tapas de Mariscos":  1050
+        ,   
+        "Pasta Frutti de Mare":  1450
+        ,   
+        "Cazuelita Colonial":  1100
+        ,   
+        "Crema Floridita":  600
+        ,   
+        "Sopa Noche de Paris":  350
+        },
+        "main_dishes":{
+            "Langosta a su Gusto":  2400
+      ,   
+      "Gran Plato Hemingway":  2400
+      ,   
+      "Cazuelita del Pescador":  2400
+      ,   
+      "Cayuka Mixta":  2400
+      ,   
+      "Papa & Mary":  2350
+      ,   
+      "Camarones Flambeados al Ron":  2200
+      ,   
+      "Pincho de Camarones":  1950
+      ,   
+      "Filete de Pescado al Estilo Hemingway":  2200
+      ,   
+      "Filete de Pescado a la Parrilla":  1800
+      ,   
+      "Clasica Ropa Vieja":  1800
+      ,   
+      "Solomillo de Res":  2400
+      ,   
+      "Cazerola de Pollo Gregorin":  1450
+      ,   
+      "Arroz Marinero":  1450
+      ,   
+      "Bistec de Cerdo Finca Vijia":  1700
+        },
+        "bar":{
+            "drinks":{
+                "Cava Sangre de Toro Brut": 2500
+      ,   
+      "Cava Freixenet Cordon Negro Brut": 2650
+      ,   
+      "Henkell Troken": 2700
+      ,
+      "Gewurztraminer, Viñas del Vero Somontano 2021":  4250
+      ,   
+      "Beronia Rueda": 3500
+      ,
+      "La Vielle de Ferme 2022": 2550
+      ,   
+      "Viñas del Vero Pinot, Somontano 2021": 3650
+      ,
+      "Sangre de Toro, Rioja": 2850
+      ,  
+      "Marques de Caceres Gaudium 2016":  1250
+      , 
+      "Beronia, Crianza Tempranillo 2019": 3870
+      ,
+      "Chateau Los Boldos, Carmenere 2020": 4750
+      ,
+      "Veramonte Merlot, 2019 Reserva(Organico)": 3950
+      ,
+      "Veramonte Carmenere 2020 Reserva(Organico)": 3950
+      ,   
+      "Villa Antinori Toscana 2019": 5950
+      ,   
+      "Peppoli Chianti Classico 2019 Antinori": 4675
+      ,   
+      "Campo Viejo Tempranillo Rioja 2021": 2800
+      ,
+      "Wines by the Glass": 750
+      
+            }
+        }     
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"El Mexicano": {
+    "place": "El Mexicano",
+    "municipality":"GB",
+    "street":"",
+    "kitchen": ["comida italiana","comida rápida"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[23.12937954129776, -82.30898529375422],
+    "phone_number":72635413,
+    "horary": {
+        "monday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "tuesday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "wednesday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "thuersday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "friday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "saturday":{
+            "open":10.00,
+            "close":22.00
+        },
+        "sunday":{
+            "open":10.00,
+            "close":22.00
+        }
+    },
+    "menu": {
+        "breads":{
+            "sandwich de jamon y queso": 350
+            ,
+           "sandwich de queso jamon especial": 600
+        },
+        "pizzas":{
+            "pizza queso gouda": 450
+        },
+        "pastes":{
+            "spaghetti queso gouda": 770
+        },
+        "drinks":{
+            "refresco":{
+                "pepsi": 270
+                ,
+               "mirinda": 280
+                ,
+               "perla negra": 270
+                ,
+               "ironbeer": 240
+                ,
+               "orange": 220
+                ,
+               "cola polo": 220
+                ,
+               "limon": 220
+                ,
+               "coca cola": 280
+            },
+            "tigon": 300
+            ,
+           "malta 1 hyper": 270,
+           "cerveza":{
+            "cerveza": 200
+                ,
+               "holandia": 200
+                ,
+               "cristal lata": 250
+                ,
+               "cristal botella": 200
+                ,
+               "shaka": 350
+           }
+        }
+    },
+    "there_is_an_additional_charge_for_service": false,
+    "messenger": false
+},
+"Roxinanda": {
+    "place": "Roxinanda",
+    "municipality":"DO",
+    "street":"esquina de Santa Catalina y calzada de 10 de Octubre",
+    "kitchen": ["hamburguesas","comida rápida"],
+    "recomendation_in_social_red": 0,
+    "social_network": null,
+    "coordinates":[],
+    "phone_number":null,
+    "horary": {
+        "monday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "tuesday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "wednesday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "thuersday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "friday":{
+            "open":0.00,
+            "close":0.00
+        },
+        "saturday":{
+            "open": 0.00,
+            "close":0.00
+        },
+        "sunday":{
+            "open":0.00,
+            "close":0.00
+        }
+    },
+    "menu": {
+        "breads":{
+        "Hamburguesa cerdo": 640 ,
+         "Hamburguesa pollo": 650 ,
+         "Hamburguesa res": 690 ,
+         "Sandwich": 350 ,
+         "Sandwich especial": 450 
+        },
+        "drinks":{
+            "refresco":{
+                "Refresco": 270 ,
+         "Pepsi": 320
+            },
+            "cerveza":{
+                "Cristal": 3000 ,
+         "Hollandia": 300 ,
+         "Stella": 400 
+            },
+            "Jugo lata": 280 ,
+         "Kermato": 480 
+        }
+    },
+    "there_is_an_additional_charge_for_service": true,
+    "percent_collected":10,
+    "messenger": false
 }
 }

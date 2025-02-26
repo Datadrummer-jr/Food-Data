@@ -952,47 +952,6 @@ def ice_cream():
     return df_ordenado
 
 
-def restaurant(opcion: str):
-    an = []
-    by = []
-    ch = []
-    ct = []
-    cr = []
-    do = []
-    gb = []
-    he = []
-    hv = []
-    ll = []
-    mr = []
-    py = []
-    pr = []
-    rg = []
-    sm = []
-    mnc = [an,by,ch,ct,cr,do,gb,he,hv,ll,mr,py,pr,rg,sm]
-    municipios = ["Arroyo Naranjo","Boyero","Centro Habana","Cotorro","Cerro","Diez de Octubre","Guanabacoa","Habana del Este","Habana Vieja","La Lisa","Marianao","Playa","Plaza de la Revolución","Regla","San Miguel del Padrón"]
-    prices_max = []
-    prices_min = []
-    for i in names:
-        for o in x:
-            if data[i]["municipality"] == o:
-                m_index = x.index(o)
-                mnc[m_index].append(i)
-    index_maximo = []
-    index_minimo = []
-    for u in range(len(mnc)):
-        index_maximo.append(max(mnc[u]))
-        index_minimo.append(min(mnc[u]))
-    for w in index_maximo: 
-        prices_max.append(price(w))
-
-    df_caro = pd.DataFrame({
-        "Municipio": municipios,
-        "Restaurantes Más Baratos": index_maximo,
-        "Presupuesto": prices_max
-    })
-
-    if opcion == "caros":
-        return df_caro
 
 def bar_hv():
     total = 0
@@ -1130,6 +1089,40 @@ def pizzas_do():
     plt.ylabel("Restaurantes")
     plt.xlabel("Precios")
     return plt.show()
+
+def graph_dish_do():
+    dish_do = []
+    median_do = []
+    x = dish_do
+    y = median_do
+    type_dish_muni(list_do,"DO", dish_do, median_do)
+    plt.figure(figsize=(16, 10))
+    plt.bar(x,y, color= ["b","g","r", "c", "m","y","b","g","r", "c", "m","y", "b", "r" ,"g"])
+    plt.title("Comparación del precio de los diferentes tipos de plato en Diez de Octubre")
+    plt.xlabel("Tipos de Platos")
+    plt.ylabel("Precios")
+    plt.show()
+
+def df2_ice_cream():
+    repeat = []
+    median_ic = []
+    for i in names:
+        postres = data[i]["menu"]
+        if "desserts" in postres:
+            for o in postres["desserts"]:
+                if o.upper().count("helad".upper()) > 0:
+                    repeat.append(i)
+                    helados = data[i]["menu"]["desserts"][o]
+                    if type(helados) == float or type(helados) == int:
+                        median_ic.append(helados)
+                    else:
+                        median_ic.append(dict_num_values(helados))
+                else: continue
+        else:
+            continue
+    place = remove_duplicados(repeat)
+    print(f"A pesar de la baja cifra {(len(place) / len(names)) * 100} % de los restaurantes de La Habana tiene al menos tipo de helado en su menú, ya que es unos de los postres más consumidos por los cubanos")
+    
 
 
 
